@@ -8,28 +8,28 @@ public class FindDoctorsPage {
 
     private WebDriver driver;
 
-    // ✅ Gender filter
+    //Gender filter
     @FindBy(xpath = "//div[@data-qa-id='doctor_gender_section']")
     private WebElement genderDropdown;
 
     @FindBy(xpath = "//li[@data-qa-id='male']")
     private WebElement maleOption;
 
-    // ✅ Patient stories filter
+    //Patient stories filter
     @FindBy(xpath = "//div[@data-qa-id='doctor_review_count_section']")
     private WebElement patientStoriesDropdown;
 
     @FindBy(xpath = "//li[@aria-label='20+ Patient Stories']")
     private WebElement patientStories20Plus;
 
-    // ✅ Experience filter
+    //Experience filter
     @FindBy(xpath = "//div[@data-qa-id='years_of_experience_section']")
     private WebElement experienceDropdown;
 
     @FindBy(xpath = "//li[@aria-label='5+ Years of experience']")
     private WebElement experience5Plus;
 
-    // ✅ All filters
+    //All filters
     @FindBy(xpath = "//span[@data-qa-id='all_filters']")
     private WebElement allFilters;
 
@@ -37,7 +37,7 @@ public class FindDoctorsPage {
     private WebElement feesFilter;
 
 
-    // ✅ Result count text
+    //Result count text
     @FindBy(xpath = "//h1[@class='u-xx-large-font u-bold']")
     private WebElement resultCount;
 
@@ -46,7 +46,7 @@ public class FindDoctorsPage {
         PageFactory.initElements(driver, this);
     }
 
-    // ✅ Filter actions (NO logging here)
+    //Filter actions (NO logging here)
 
     public void selectGenderMale() {
         genderDropdown.click();
@@ -69,7 +69,7 @@ public class FindDoctorsPage {
     }
 
 
-    // ✅ Getters (used in tests for waits & assertions)
+    //Getters (used in tests for waits & assertions)
 
     public WebElement getResultElement() {
         return resultCount;

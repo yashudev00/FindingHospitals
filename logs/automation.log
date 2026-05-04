@@ -746,3 +746,26 @@
 2026-05-04 21:02:13 INFO  org.example.base.BaseClass - ✅ TEST PASSED: CorporateFormInvalidInputTest_23
 2026-05-04 21:02:13 INFO  org.example.base.BaseClass - Closing browser for test: CorporateFormInvalidInputTest_23
 2026-05-04 21:02:17 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-04 22:09:11 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-04 22:09:11 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-04 22:09:14 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-04 22:09:18 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Starting DiagnosticsCityClickTest_19
+2026-05-04 22:09:18 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Opening Lab Tests page
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Top Cities Available:
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Bangalore
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Delhi
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Mumbai
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Chennai
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Hyderabad
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Kolkata
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Pune
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Ahmedabad
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Verifying first city is clickable
+2026-05-04 22:09:20 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Clicking first city: Bangalore
+2026-05-04 22:09:21 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Navigation validation result: true
+2026-05-04 22:09:21 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - DiagnosticsCityClickTest_19 completed successfully
+2026-05-04 22:09:21 INFO  org.example.base.BaseClass - ✅ TEST PASSED: DiagnosticsCityClickTest_19
+2026-05-04 22:09:21 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsCityClickTest_19
+2026-05-04 22:09:23 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========

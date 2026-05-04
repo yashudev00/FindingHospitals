@@ -24,7 +24,7 @@ public class HomePage {
     @FindBy(xpath = "//input[@data-qa-id='omni-searchbox-keyword']")
     private WebElement searchBox;
 
-    // ❌ DO NOT cache Hospital suggestion as WebElement (dynamic DOM)
+    //DO NOT cache Hospital suggestion as WebElement (dynamic DOM)
     private By hospitalSuggestion =
             By.xpath("//div[@data-qa-id='omni-suggestion-main' and normalize-space()='Hospital']");
 
@@ -34,7 +34,7 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-    // ✅ Search hospitals in default city
+    //Search hospitals in default city
     public void searchHospitalInDefaultCity() {
 
         String city = ConfigReader.get("defaultCity");
