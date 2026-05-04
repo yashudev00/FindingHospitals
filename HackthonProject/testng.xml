@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Practo Hospital Automation Suite">
+
+    <listeners>
+        <listener class-name="org.example.listeners.ExcelReportListener"/>
+    </listeners>
+
+    <test name="Hospital Validation Tests">
+
+        <classes>
+             <class name="org.example.tests.TC01_HospitalAvailability247Test"/>
+             <class name="org.example.tests.TC02_ParkingAvailabilityTest"/>
+             <class name="org.example.tests.TC03_RatingValidationTest"/>
+             <class name="org.example.tests.TC04_NearestHospitalTest"/>
+             <class name="org.example.tests.TC05_BestRatedHospitalTest"/>
+             <class name="org.example.tests.TC06_VerifyMultipleEligibleHospitalsTest"/>
+             <class name="org.example.tests.TC07_VerifyTopCitiesSectionDisplayed"/>
+             <class name="org.example.tests.TC08_CaptureTopCities"/>
+             <class name="org.example.tests.TC09_VerifyTopCitiesAreUnique"/>
+            <class name="org.example.tests.TC10_FindEligibleHospitalsInTopCities"/>
+             <class name="org.example.tests.TC11_VerifyNavigation"/>
+             <class name="org.example.tests.TC12_FilterByGender"/>
+            <class name="org.example.tests.TC13_FilterByPatientStories"/>
+            <class name="org.example.tests.TC14_FilterByFeesAndExperience"/>
+        </classes>
+    </test>
+</suite>

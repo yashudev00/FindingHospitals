@@ -1,0 +1,655 @@
+2026-05-02 17:34:33 INFO  TC10_FindEligibleHospitalsInTopCities - Navigating directly to Hospitals page
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - Top cities retrieved:
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Kanpur
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Delhi
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Thane
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Chennai
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Vadodara
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Ernakulam
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Lucknow
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Faridabad
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Jaipur
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - City: Bangalore
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - =================================
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - CITY: Kanpur
+2026-05-02 17:34:39 INFO  TC10_FindEligibleHospitalsInTopCities - =================================
+2026-05-02 17:34:46 INFO  TC10_FindEligibleHospitalsInTopCities - ✅ Excel report generated at: results/HospitalResults.xlsx
+2026-05-02 17:35:44 INFO  TC10_FindEligibleHospitalsInTopCities - Navigating directly to Hospitals page
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - Top cities retrieved:
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Kanpur
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Delhi
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Thane
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Chennai
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Vadodara
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Ernakulam
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Lucknow
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Faridabad
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Jaipur
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - City: Bangalore
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - =================================
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - CITY: Kanpur
+2026-05-02 17:35:56 INFO  TC10_FindEligibleHospitalsInTopCities - =================================
+2026-05-02 17:36:01 INFO  TC10_FindEligibleHospitalsInTopCities - ✅ Excel report generated at: results/HospitalResults.xlsx
+2026-05-02 17:55:22 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 17:55:25 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Bangalore
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Visakhapatnam
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Patna
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Chennai
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Bhubaneswar
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Hyderabad
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Kolkata
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Ernakulam
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Indore
+2026-05-02 17:55:39 INFO  BaseClass - 📍 Top City Captured: Vadodara
+2026-05-02 17:55:40 INFO  BaseClass - ✅ TEST PASSED: captureTopCities
+2026-05-02 17:55:40 INFO  BaseClass - Closing browser for test: captureTopCities
+2026-05-02 17:55:43 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 17:55:43 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 17:55:46 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Kanpur
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Delhi
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Thane
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Chennai
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Vadodara
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Ernakulam
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Lucknow
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Faridabad
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Jaipur
+2026-05-02 17:55:56 INFO  BaseClass - 📍 City: Bangalore
+2026-05-02 17:55:56 INFO  BaseClass - ✅ Top Cities list contains only unique values
+2026-05-02 17:55:56 INFO  BaseClass - ✅ TEST PASSED: verifyTopCitiesAreUnique
+2026-05-02 17:55:56 INFO  BaseClass - Closing browser for test: verifyTopCitiesAreUnique
+2026-05-02 17:55:58 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 17:58:13 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 17:58:16 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Bangalore
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Visakhapatnam
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Patna
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Chennai
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Bhubaneswar
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Hyderabad
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Kolkata
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Ernakulam
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Indore
+2026-05-02 17:58:40 INFO  BaseClass - 📍 Top City Captured: Vadodara
+2026-05-02 17:58:41 INFO  BaseClass - ✅ TEST PASSED: captureTopCities
+2026-05-02 17:58:41 INFO  BaseClass - Closing browser for test: captureTopCities
+2026-05-02 17:58:45 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 17:58:45 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 17:58:47 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Kanpur
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Delhi
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Thane
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Chennai
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Vadodara
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Ernakulam
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Lucknow
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Faridabad
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Jaipur
+2026-05-02 17:58:57 INFO  BaseClass - 📍 City: Bangalore
+2026-05-02 17:58:57 INFO  BaseClass - ✅ Top Cities list contains only unique values
+2026-05-02 17:58:57 INFO  BaseClass - ✅ TEST PASSED: verifyTopCitiesAreUnique
+2026-05-02 17:58:57 INFO  BaseClass - Closing browser for test: verifyTopCitiesAreUnique
+2026-05-02 17:59:01 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:03:39 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:03:43 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:04:04 INFO  BaseClass - ✅ Open 24x7 hospital found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 18:04:05 INFO  BaseClass - ✅ TEST PASSED: verifyFirstHospitalOpen24x7
+2026-05-02 18:04:06 INFO  BaseClass - Closing browser for test: verifyFirstHospitalOpen24x7
+2026-05-02 18:04:10 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:04:10 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:04:13 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:04:36 INFO  BaseClass - ✅ Hospital with parking found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 18:04:36 INFO  BaseClass - ✅ TEST PASSED: verifyFirstHospitalWithParking
+2026-05-02 18:04:36 INFO  BaseClass - Closing browser for test: verifyFirstHospitalWithParking
+2026-05-02 18:04:40 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:04:40 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:04:43 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:05:11 INFO  BaseClass - ✅ Hospital with rating > 3.5 found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield | Rating: 4.0
+2026-05-02 18:05:11 INFO  BaseClass - ✅ TEST PASSED: verifyHospitalRatingAbove35
+2026-05-02 18:05:11 INFO  BaseClass - Closing browser for test: verifyHospitalRatingAbove35
+2026-05-02 18:05:15 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:05:15 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:05:18 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:05:36 INFO  BaseClass - ✅ Nearest eligible hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 18:05:36 INFO  BaseClass - ✅ TEST PASSED: findNearestEligibleHospital
+2026-05-02 18:05:37 INFO  BaseClass - Closing browser for test: findNearestEligibleHospital
+2026-05-02 18:05:42 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:05:42 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:05:45 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:06:30 INFO  BaseClass - ✅ Best rated hospital: Manipal Hospitals, Yeshwanthpur | Rating: 4.5
+2026-05-02 18:06:30 INFO  BaseClass - ✅ TEST PASSED: findBestRatedEligibleHospital
+2026-05-02 18:06:31 INFO  BaseClass - Closing browser for test: findBestRatedEligibleHospital
+2026-05-02 18:06:35 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:06:35 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:06:37 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:06:42 ERROR BaseClass - ❌ TEST FAILED: verifyMultipleEligibleHospitals
+2026-05-02 18:06:42 INFO  BaseClass - Closing browser for test: verifyMultipleEligibleHospitals
+2026-05-02 18:06:46 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:06:46 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:06:48 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:06:53 ERROR BaseClass - ❌ TEST FAILED: verifyTopCitiesSectionIsDisplayed
+2026-05-02 18:06:53 INFO  BaseClass - Closing browser for test: verifyTopCitiesSectionIsDisplayed
+2026-05-02 18:06:55 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:06:55 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:06:58 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Bangalore
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Visakhapatnam
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Patna
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Chennai
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Bhubaneswar
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Hyderabad
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Kolkata
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Ernakulam
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Indore
+2026-05-02 18:07:12 INFO  BaseClass - 📍 Top City Captured: Vadodara
+2026-05-02 18:07:12 INFO  BaseClass - ✅ TEST PASSED: captureTopCities
+2026-05-02 18:07:12 INFO  BaseClass - Closing browser for test: captureTopCities
+2026-05-02 18:07:16 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:07:16 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:07:18 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Kanpur
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Delhi
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Thane
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Chennai
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Vadodara
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Ernakulam
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Lucknow
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Faridabad
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Jaipur
+2026-05-02 18:07:30 INFO  BaseClass - 📍 City: Bangalore
+2026-05-02 18:07:30 INFO  BaseClass - ✅ Top Cities list contains only unique values
+2026-05-02 18:07:30 INFO  BaseClass - ✅ TEST PASSED: verifyTopCitiesAreUnique
+2026-05-02 18:07:30 INFO  BaseClass - Closing browser for test: verifyTopCitiesAreUnique
+2026-05-02 18:07:33 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:08:35 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:08:38 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:08:42 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:08:54 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:09:15 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:09:16 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:09:19 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:10:06 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:10:09 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:10:12 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:10:22 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:10:30 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:10:30 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:10:33 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:12:00 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:12:03 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:12:06 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:12:17 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:12:26 INFO  BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 18:12:30 INFO  BaseClass - Processing city: Delhi
+2026-05-02 18:12:46 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:12:46 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:12:50 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:18:30 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:18:33 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:18:36 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:18:44 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:18:45 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:18:45 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:18:48 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:19:21 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:19:23 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:19:27 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:19:33 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:19:35 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:19:35 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:19:38 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:22:16 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:22:19 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:22:22 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:22:29 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:23:42 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:23:45 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:23:45 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:23:56 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:23:58 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:24:01 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:24:07 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:28:22 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:28:24 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:28:28 INFO  BaseClass - Starting TC10: Vizag-based Top Cities hospital validation
+2026-05-02 18:28:37 INFO  BaseClass - Switching base city to: Visakhapatnam
+2026-05-02 18:28:58 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:29:01 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:29:01 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:31:22 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:31:25 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:31:28 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:31:34 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:31:39 INFO  BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 18:31:43 INFO  BaseClass - Processing city: Delhi
+2026-05-02 18:31:57 INFO  BaseClass - Eligible hospital found | City: Delhi | Name: Max Multi Speciality Centre, Panchsheel Park | Rating: 4.5
+2026-05-02 18:31:57 INFO  BaseClass - Processing city: Thane
+2026-05-02 18:32:32 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:32:32 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:32:36 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:35:21 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:35:29 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:35:32 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:35:39 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:35:46 INFO  BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 18:35:48 INFO  BaseClass - Processing city: Delhi
+2026-05-02 18:36:04 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:36:04 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:36:08 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:36:40 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:36:42 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:36:46 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:36:54 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:37:00 INFO  BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 18:37:03 INFO  BaseClass - Processing city: Delhi
+2026-05-02 18:37:18 INFO  BaseClass - Eligible hospital found | City: Delhi | Name: Max Multi Speciality Centre, Panchsheel Park | Rating: 4.5
+2026-05-02 18:37:19 INFO  BaseClass - Processing city: Thane
+2026-05-02 18:39:14 WARN  BaseClass - ❌ No eligible hospital found for city: Thane
+2026-05-02 18:39:14 INFO  BaseClass - Processing city: Chennai
+2026-05-02 18:39:25 INFO  BaseClass - Eligible hospital found | City: Chennai | Name: Medicare Hospital, Thane West | Rating: 4.5
+2026-05-02 18:39:25 INFO  BaseClass - Processing city: Vadodara
+2026-05-02 18:40:26 INFO  BaseClass - Eligible hospital found | City: Vadodara | Name: Sterling Hospital, Racecourse | Rating: 5.0
+2026-05-02 18:40:26 INFO  BaseClass - Processing city: Ernakulam
+2026-05-02 18:40:32 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:40:32 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:40:36 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:42:07 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:42:09 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:42:15 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:42:22 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:42:29 INFO  BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 18:42:31 INFO  BaseClass - Processing city: Delhi
+2026-05-02 18:42:37 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:42:37 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:42:41 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:42:48 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:42:51 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:42:55 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:43:02 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:43:03 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:43:03 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:43:06 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:44:20 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:44:22 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:44:28 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:44:38 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:44:42 INFO  BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 18:44:44 INFO  BaseClass - Processing city: Delhi
+2026-05-02 18:45:01 INFO  BaseClass - Eligible hospital found | City: Delhi | Name: Max Multi Speciality Centre, Panchsheel Park | Rating: 4.5
+2026-05-02 18:45:01 INFO  BaseClass - Processing city: Thane
+2026-05-02 18:45:38 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:45:41 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:45:41 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:46:01 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:46:04 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:46:10 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:46:21 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:46:35 INFO  BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 18:46:38 INFO  BaseClass - Processing city: Delhi
+2026-05-02 18:46:58 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:47:01 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:47:01 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:49:18 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:49:21 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:49:26 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:49:32 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:49:45 INFO  BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 18:49:49 INFO  BaseClass - Processing city: Delhi
+2026-05-02 18:49:51 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:49:51 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:49:54 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 18:54:30 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 18:54:33 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 18:54:37 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 18:54:46 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 18:54:53 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 18:54:53 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 18:54:58 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:04:29 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:04:34 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:04:38 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 19:04:45 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 19:04:49 INFO  BaseClass - ✅ Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 19:04:52 INFO  BaseClass - Processing city: Delhi
+2026-05-02 19:05:03 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 19:05:03 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 19:05:10 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:08:09 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:08:13 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:08:20 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 19:08:27 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 19:08:57 WARN  BaseClass - ❌ No eligible hospital found for city: Kanpur
+2026-05-02 19:08:57 INFO  BaseClass - Processing city: Delhi
+2026-05-02 19:09:11 INFO  BaseClass - ✅ Eligible hospital found | City: Delhi | Name: Max Multi Speciality Centre, Panchsheel Park | Rating: 4.5
+2026-05-02 19:09:11 INFO  BaseClass - Processing city: Thane
+2026-05-02 19:09:45 WARN  BaseClass - ❌ No eligible hospital found for city: Thane
+2026-05-02 19:09:45 INFO  BaseClass - Processing city: Chennai
+2026-05-02 19:09:47 INFO  BaseClass - ✅ Eligible hospital found | City: Chennai | Name: Medicare Hospital, Thane West | Rating: 4.5
+2026-05-02 19:09:52 INFO  BaseClass - Processing city: Vadodara
+2026-05-02 19:09:55 INFO  BaseClass - ✅ Eligible hospital found | City: Vadodara | Name: Dr. Mehta's Hospitals, Chetpet | Rating: 4.5
+2026-05-02 19:09:58 INFO  BaseClass - Processing city: Ernakulam
+2026-05-02 19:10:11 INFO  BaseClass - ✅ Eligible hospital found | City: Ernakulam | Name: Apollo Adlux Hospital, Angamaly | Rating: 4.0
+2026-05-02 19:10:11 INFO  BaseClass - Processing city: Lucknow
+2026-05-02 19:10:24 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 19:10:24 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 19:10:28 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:11:12 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:11:15 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:11:19 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 19:11:24 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 19:11:54 WARN  BaseClass - ❌ No eligible hospital found for city: Kanpur
+2026-05-02 19:11:54 INFO  BaseClass - Processing city: Delhi
+2026-05-02 19:12:06 INFO  BaseClass - ✅ Eligible hospital found | City: Delhi | Name: Max Multi Speciality Centre, Panchsheel Park | Rating: 4.5
+2026-05-02 19:12:06 INFO  BaseClass - Processing city: Thane
+2026-05-02 19:12:40 WARN  BaseClass - ❌ No eligible hospital found for city: Thane
+2026-05-02 19:12:40 INFO  BaseClass - Processing city: Chennai
+2026-05-02 19:12:42 INFO  BaseClass - ✅ Eligible hospital found | City: Chennai | Name: Medicare Hospital, Thane West | Rating: 4.5
+2026-05-02 19:12:51 INFO  BaseClass - Processing city: Vadodara
+2026-05-02 19:12:54 INFO  BaseClass - ✅ Eligible hospital found | City: Vadodara | Name: Dr. Mehta's Hospitals, Chetpet | Rating: 4.5
+2026-05-02 19:12:57 INFO  BaseClass - Processing city: Ernakulam
+2026-05-02 19:13:10 INFO  BaseClass - ✅ Eligible hospital found | City: Ernakulam | Name: Apollo Adlux Hospital, Angamaly | Rating: 4.0
+2026-05-02 19:13:10 INFO  BaseClass - Processing city: Lucknow
+2026-05-02 19:13:23 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 19:13:23 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 19:13:27 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:17:09 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:17:11 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:17:15 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 19:17:24 INFO  BaseClass - Processing city: Bangalore
+2026-05-02 19:17:38 INFO  BaseClass - ✅ Eligible hospital found | City: Bangalore | Name: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield | Rating: 4.0
+2026-05-02 19:17:41 INFO  BaseClass - Processing city: Visakhapatnam
+2026-05-02 19:17:43 INFO  BaseClass - ✅ Eligible hospital found | City: Visakhapatnam | Name: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield | Rating: 4.0
+2026-05-02 19:17:48 INFO  BaseClass - Processing city: Patna
+2026-05-02 19:18:02 INFO  BaseClass - ✅ Eligible hospital found | City: Patna | Name: BIG Apollo Spectra Multi Speciality Hospital, Patna | Rating: 4.0
+2026-05-02 19:18:02 INFO  BaseClass - Processing city: Chennai
+2026-05-02 19:18:15 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 19:18:15 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 19:18:18 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:20:19 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:20:22 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:20:26 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 19:20:34 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 19:20:38 ERROR BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-02 19:20:38 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 19:20:41 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:20:45 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:20:49 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:20:52 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 19:21:00 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 19:21:33 WARN  BaseClass - ❌ No eligible hospital found for city: Kanpur
+2026-05-02 19:21:33 INFO  BaseClass - Processing city: Delhi
+2026-05-02 19:21:46 INFO  BaseClass - ✅ Eligible hospital found | City: Delhi | Name: Max Multi Speciality Centre, Panchsheel Park | Rating: 4.5
+2026-05-02 19:21:46 INFO  BaseClass - Processing city: Thane
+2026-05-02 19:22:19 WARN  BaseClass - ❌ No eligible hospital found for city: Thane
+2026-05-02 19:22:19 INFO  BaseClass - Processing city: Chennai
+2026-05-02 19:22:22 INFO  BaseClass - ✅ Eligible hospital found | City: Chennai | Name: Medicare Hospital, Thane West | Rating: 4.5
+2026-05-02 19:22:26 INFO  BaseClass - Processing city: Vadodara
+2026-05-02 19:22:28 INFO  BaseClass - ✅ Eligible hospital found | City: Vadodara | Name: Dr. Mehta's Hospitals, Chetpet | Rating: 4.5
+2026-05-02 19:22:31 INFO  BaseClass - Processing city: Ernakulam
+2026-05-02 19:22:44 INFO  BaseClass - ✅ Eligible hospital found | City: Ernakulam | Name: Apollo Adlux Hospital, Angamaly | Rating: 4.0
+2026-05-02 19:22:44 INFO  BaseClass - Processing city: Lucknow
+2026-05-02 19:23:17 WARN  BaseClass - ❌ No eligible hospital found for city: Lucknow
+2026-05-02 19:23:17 INFO  BaseClass - Processing city: Faridabad
+2026-05-02 19:23:50 WARN  BaseClass - ❌ No eligible hospital found for city: Faridabad
+2026-05-02 19:23:50 INFO  BaseClass - Processing city: Jaipur
+2026-05-02 19:23:53 INFO  BaseClass - ✅ Eligible hospital found | City: Jaipur | Name: Anjuli Nursing Home, Sector 84 | Rating: 5.0
+2026-05-02 19:23:56 INFO  BaseClass - Processing city: Bangalore
+2026-05-02 19:24:07 INFO  BaseClass - ✅ Eligible hospital found | City: Bangalore | Name: Manipal Hospitals, Yeshwanthpur | Rating: 4.5
+2026-05-02 19:24:07 INFO  BaseClass - TC10 execution completed for all cities
+2026-05-02 19:24:07 INFO  BaseClass - ✅ TEST PASSED: findEligibleHospitalsInTopCities
+2026-05-02 19:24:07 INFO  BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-02 19:24:11 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:26:00 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:26:03 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:26:33 INFO  BaseClass - ✅ Open 24x7 hospital found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 19:26:34 INFO  BaseClass - ✅ TEST PASSED: verifyFirstHospitalOpen24x7
+2026-05-02 19:26:34 INFO  BaseClass - Closing browser for test: verifyFirstHospitalOpen24x7
+2026-05-02 19:26:38 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:26:38 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:26:40 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:26:52 INFO  BaseClass - ✅ Hospital with parking found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 19:26:52 INFO  BaseClass - ✅ TEST PASSED: verifyFirstHospitalWithParking
+2026-05-02 19:26:52 INFO  BaseClass - Closing browser for test: verifyFirstHospitalWithParking
+2026-05-02 19:26:55 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:26:55 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:26:57 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:27:14 INFO  BaseClass - ✅ Hospital with rating > 3.5 found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield | Rating: 4.0
+2026-05-02 19:27:14 INFO  BaseClass - ✅ TEST PASSED: verifyHospitalRatingAbove35
+2026-05-02 19:27:14 INFO  BaseClass - Closing browser for test: verifyHospitalRatingAbove35
+2026-05-02 19:27:18 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:27:18 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:27:20 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:27:37 INFO  BaseClass - ✅ Nearest eligible hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 19:27:37 INFO  BaseClass - ✅ TEST PASSED: findNearestEligibleHospital
+2026-05-02 19:27:37 INFO  BaseClass - Closing browser for test: findNearestEligibleHospital
+2026-05-02 19:27:41 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:27:41 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:27:43 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:27:48 ERROR BaseClass - ❌ TEST FAILED: findBestRatedEligibleHospital
+2026-05-02 19:27:48 INFO  BaseClass - Closing browser for test: findBestRatedEligibleHospital
+2026-05-02 19:27:50 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:27:50 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:27:52 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:29:38 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:29:41 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:30:11 INFO  BaseClass - ✅ Best rated hospital: Manipal Hospitals, Yeshwanthpur | Rating: 4.5
+2026-05-02 19:30:11 INFO  BaseClass - ✅ TEST PASSED: findBestRatedEligibleHospital
+2026-05-02 19:30:11 INFO  BaseClass - Closing browser for test: findBestRatedEligibleHospital
+2026-05-02 19:30:15 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:35:58 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:36:06 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:36:24 INFO  BaseClass - ✅ Open 24x7 hospital found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 19:36:24 INFO  BaseClass - ✅ TEST PASSED: verifyFirstHospitalOpen24x7
+2026-05-02 19:36:25 INFO  BaseClass - Closing browser for test: verifyFirstHospitalOpen24x7
+2026-05-02 19:36:28 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:36:28 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:36:30 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:36:35 ERROR BaseClass - ❌ TEST FAILED: verifyFirstHospitalWithParking
+2026-05-02 19:36:35 INFO  BaseClass - Closing browser for test: verifyFirstHospitalWithParking
+2026-05-02 19:36:38 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:36:38 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:36:40 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:37:42 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:37:44 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:38:03 INFO  BaseClass - ✅ Open 24x7 hospital found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 19:38:04 INFO  BaseClass - ✅ TEST PASSED: verifyFirstHospitalOpen24x7
+2026-05-02 19:38:04 INFO  BaseClass - Closing browser for test: verifyFirstHospitalOpen24x7
+2026-05-02 19:38:07 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:38:07 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:38:09 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:38:42 INFO  BaseClass - ✅ Hospital with parking found: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 19:38:42 INFO  BaseClass - ✅ TEST PASSED: verifyFirstHospitalWithParking
+2026-05-02 19:38:43 INFO  BaseClass - Closing browser for test: verifyFirstHospitalWithParking
+2026-05-02 19:38:46 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:38:46 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:38:48 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:39:03 INFO  BaseClass - ✅ Hospital with rating > 3.5 found: Criticare Asia Multispeciality Hospital & Research Centre, Andheri West | Rating: 5.0
+2026-05-02 19:39:03 INFO  BaseClass - ✅ TEST PASSED: verifyHospitalRatingAbove35
+2026-05-02 19:39:03 INFO  BaseClass - Closing browser for test: verifyHospitalRatingAbove35
+2026-05-02 19:39:07 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:39:07 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:39:09 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:39:27 INFO  BaseClass - ✅ Nearest eligible hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield
+2026-05-02 19:39:27 INFO  BaseClass - ✅ TEST PASSED: findNearestEligibleHospital
+2026-05-02 19:39:27 INFO  BaseClass - Closing browser for test: findNearestEligibleHospital
+2026-05-02 19:39:32 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:39:32 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:39:33 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:40:21 INFO  BaseClass - ✅ Best rated hospital: Manipal Hospitals, Yeshwanthpur | Rating: 4.5
+2026-05-02 19:40:21 INFO  BaseClass - ✅ TEST PASSED: findBestRatedEligibleHospital
+2026-05-02 19:40:21 INFO  BaseClass - Closing browser for test: findBestRatedEligibleHospital
+2026-05-02 19:40:25 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:40:25 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:40:26 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:41:09 INFO  BaseClass - ✅ Eligible Hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital), Whitefield | Rating: 4.0
+2026-05-02 19:41:09 INFO  BaseClass - ✅ Eligible Hospital: Manipal Hospitals, Yeshwanthpur | Rating: 4.5
+2026-05-02 19:41:09 INFO  BaseClass - ✅ Eligible Hospital: Koshys Hospital, Ramamurthy Nagar | Rating: 4.0
+2026-05-02 19:41:09 INFO  BaseClass - ✅ Eligible Hospital: Motherhood Hospital, Indiranagar | Rating: 4.5
+2026-05-02 19:41:09 INFO  BaseClass - ✅ Eligible Hospital: Motherhood Hospital, Whitefield | Rating: 4.5
+2026-05-02 19:41:09 INFO  BaseClass - ✅ Eligible Hospital: Sagar Hospitals, Banashankari | Rating: 4.0
+2026-05-02 19:41:09 INFO  BaseClass - ✅ Eligible Hospital: Apollo Cradle & Children’s Hospital, Whitefield | Rating: 4.5
+2026-05-02 19:41:09 INFO  BaseClass - ✅ Eligible Hospital: Cloudnine Hospital - Old Airport Road, Old Airport Road | Rating: 4.5
+2026-05-02 19:41:09 INFO  BaseClass - ✅ TEST PASSED: verifyMultipleEligibleHospitals
+2026-05-02 19:41:09 INFO  BaseClass - Closing browser for test: verifyMultipleEligibleHospitals
+2026-05-02 19:41:12 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:41:12 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:41:14 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:41:28 INFO  BaseClass - ✅ Top Cities section is displayed
+2026-05-02 19:41:28 INFO  BaseClass - ✅ TEST PASSED: verifyTopCitiesSectionIsDisplayed
+2026-05-02 19:41:28 INFO  BaseClass - Closing browser for test: verifyTopCitiesSectionIsDisplayed
+2026-05-02 19:41:33 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:41:33 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:41:34 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Bangalore
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Visakhapatnam
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Patna
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Chennai
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Bhubaneswar
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Hyderabad
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Kolkata
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Ernakulam
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Indore
+2026-05-02 19:41:47 INFO  BaseClass - 📍 Top City Captured: Vadodara
+2026-05-02 19:41:47 INFO  BaseClass - ✅ TEST PASSED: captureTopCities
+2026-05-02 19:41:48 INFO  BaseClass - Closing browser for test: captureTopCities
+2026-05-02 19:41:52 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:41:52 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:41:54 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Kanpur
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Delhi
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Thane
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Chennai
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Vadodara
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Ernakulam
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Lucknow
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Faridabad
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Jaipur
+2026-05-02 19:42:06 INFO  BaseClass - 📍 City: Bangalore
+2026-05-02 19:42:06 INFO  BaseClass - ✅ Top Cities list contains only unique values
+2026-05-02 19:42:06 INFO  BaseClass - ✅ TEST PASSED: verifyTopCitiesAreUnique
+2026-05-02 19:42:06 INFO  BaseClass - Closing browser for test: verifyTopCitiesAreUnique
+2026-05-02 19:42:09 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-02 19:42:09 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-02 19:42:10 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-02 19:42:18 INFO  BaseClass - Starting TC10: City-wise hospital validation
+2026-05-02 19:42:28 INFO  BaseClass - Processing city: Kanpur
+2026-05-02 19:42:36 INFO  BaseClass - ✅ Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-02 19:42:36 INFO  BaseClass - Processing city: Delhi
+2026-05-02 19:43:00 INFO  BaseClass - ✅ Eligible hospital found | City: Delhi | Name: Max Multi Speciality Centre, Panchsheel Park | Rating: 4.5
+2026-05-02 19:43:00 INFO  BaseClass - Processing city: Thane
+2026-05-03 13:17:48 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 13:51:06 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 13:51:12 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 13:51:19 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 13:51:24 INFO  BaseClass - Applying multiple filters including availability
+2026-05-03 13:51:31 ERROR BaseClass - ❌ TEST FAILED: filterByAvailability
+2026-05-03 13:51:31 INFO  BaseClass - Closing browser for test: filterByAvailability
+2026-05-03 13:51:34 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 13:54:55 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 13:54:58 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 13:55:02 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 13:55:08 INFO  BaseClass - Applying multiple filters including availability
+2026-05-03 13:55:22 ERROR BaseClass - ❌ TEST FAILED: filterByAvailability
+2026-05-03 13:55:22 INFO  BaseClass - Closing browser for test: filterByAvailability
+2026-05-03 13:55:25 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 13:56:14 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 13:56:17 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 13:56:20 INFO  BaseClass - Navigating to Mumbai doctors page
+2026-05-03 13:56:24 INFO  BaseClass - Verifying URL contains mumbai/doctors
+2026-05-03 13:56:24 INFO  BaseClass - ✅ TEST PASSED: verifyMumbaiNavigation
+2026-05-03 13:56:24 INFO  BaseClass - Closing browser for test: verifyMumbaiNavigation
+2026-05-03 13:56:27 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 13:56:31 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 13:56:34 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 13:56:37 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 13:56:42 ERROR BaseClass - ❌ TEST FAILED: filterByGenderMale
+2026-05-03 13:56:42 INFO  BaseClass - Closing browser for test: filterByGenderMale
+2026-05-03 13:56:45 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 13:57:24 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 13:57:27 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 13:57:30 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 13:57:35 INFO  BaseClass - Applying Gender filter: Male
+2026-05-03 13:57:35 INFO  BaseClass - Verifying doctors list is shown
+2026-05-03 13:57:35 INFO  BaseClass - ✅ TEST PASSED: filterByGenderMale
+2026-05-03 13:57:36 INFO  BaseClass - Closing browser for test: filterByGenderMale
+2026-05-03 13:57:38 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 13:57:45 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 13:57:47 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 13:57:51 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 13:58:00 INFO  BaseClass - Applying filters: Gender Male, Patient Stories 20+
+2026-05-03 13:58:05 INFO  BaseClass - Validating result count text is present
+2026-05-03 13:58:05 INFO  BaseClass - ✅ TEST PASSED: filterByPatientStories
+2026-05-03 13:58:05 INFO  BaseClass - Closing browser for test: filterByPatientStories
+2026-05-03 13:58:08 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 13:58:14 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 13:58:16 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 13:58:21 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 13:58:27 INFO  BaseClass - Applying filters: Gender, Patient Stories, Experience, Fees
+2026-05-03 13:58:31 INFO  BaseClass - Validating doctors are shown after filters
+2026-05-03 13:58:31 INFO  BaseClass - ✅ TEST PASSED: filterByFeesAndExperience
+2026-05-03 13:58:31 INFO  BaseClass - Closing browser for test: filterByFeesAndExperience
+2026-05-03 13:58:34 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 13:58:50 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 13:58:53 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 13:58:57 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 13:59:02 INFO  BaseClass - Applying multiple filters including availability
+2026-05-03 13:59:09 ERROR BaseClass - ❌ TEST FAILED: filterByAvailability
+2026-05-03 13:59:10 INFO  BaseClass - Closing browser for test: filterByAvailability
+2026-05-03 13:59:12 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 14:02:31 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 14:02:34 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 14:02:38 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 14:02:42 INFO  BaseClass - Applying multiple filters including availability
+2026-05-03 14:02:51 ERROR BaseClass - ❌ TEST FAILED: filterByAvailability
+2026-05-03 14:02:51 INFO  BaseClass - Closing browser for test: filterByAvailability
+2026-05-03 14:02:54 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 14:03:50 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 14:03:53 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 14:03:56 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 14:04:08 INFO  BaseClass - Applying multiple filters including availability
+2026-05-03 14:04:20 ERROR BaseClass - ❌ TEST FAILED: filterByAvailability
+2026-05-03 14:04:20 INFO  BaseClass - Closing browser for test: filterByAvailability
+2026-05-03 14:04:24 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 14:07:17 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 14:07:20 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 14:07:24 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 14:07:29 INFO  BaseClass - Applying multiple filters including availability
+2026-05-03 14:07:36 ERROR BaseClass - ❌ TEST FAILED: filterByAvailability
+2026-05-03 14:07:36 INFO  BaseClass - Closing browser for test: filterByAvailability
+2026-05-03 14:07:39 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-03 14:09:17 INFO  BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-03 14:09:19 INFO  BaseClass - Launching application: https://www.practo.com
+2026-05-03 14:09:25 INFO  BaseClass - Navigating to Mumbai Doctors page
+2026-05-03 14:09:30 INFO  BaseClass - Applying multiple filters including availability
+2026-05-03 14:09:45 ERROR BaseClass - ❌ TEST FAILED: filterByAvailability
+2026-05-03 14:09:45 INFO  BaseClass - Closing browser for test: filterByAvailability
+2026-05-03 14:09:49 INFO  BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-04 09:55:32 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-04 09:55:34 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Kanpur
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Delhi
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Thane
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Chennai
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Vadodara
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Ernakulam
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Lucknow
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Faridabad
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Jaipur
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - City: Bangalore
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - Top Cities list contains only unique values
+2026-05-04 09:55:45 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyTopCitiesAreUnique
+2026-05-04 09:55:46 INFO  org.example.base.BaseClass - Closing browser for test: verifyTopCitiesAreUnique
+2026-05-04 09:55:48 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-04 10:01:34 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-04 10:01:37 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-04 10:01:40 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-04 10:01:46 INFO  org.example.base.BaseClass - Processing city: Kanpur
+2026-05-04 10:01:49 INFO  org.example.base.BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-04 10:01:53 INFO  org.example.base.BaseClass - Processing city: Delhi
+2026-05-04 10:02:04 INFO  org.example.base.BaseClass - Eligible hospital found | City: Delhi | Name: Max Multi Speciality Centre, Panchsheel Park | Rating: 4.5
+2026-05-04 10:02:04 INFO  org.example.base.BaseClass - Processing city: Thane
+2026-05-04 10:02:09 ERROR org.example.base.BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-04 10:02:09 INFO  org.example.base.BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-04 10:02:13 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
