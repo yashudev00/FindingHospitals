@@ -653,3 +653,51 @@
 2026-05-04 10:02:09 ERROR org.example.base.BaseClass - ❌ TEST FAILED: findEligibleHospitalsInTopCities
 2026-05-04 10:02:09 INFO  org.example.base.BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
 2026-05-04 10:02:13 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-04 14:56:18 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-04 14:56:22 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-04 14:56:31 INFO  org.example.base.BaseClass - ✅ TEST PASSED: DiagnosticsCityClickTest_19
+2026-05-04 14:56:31 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsCityClickTest_19
+2026-05-04 14:56:33 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-04 14:58:26 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-04 14:58:28 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-04 14:58:35 INFO  org.example.base.BaseClass - ✅ TEST PASSED: DiagnosticsCityClickTest_19
+2026-05-04 14:58:35 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsCityClickTest_19
+2026-05-04 14:58:37 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-04 16:05:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-04 16:05:43 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-04 16:05:47 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-04 16:06:04 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Starting DiagnosticsCityClickTest_19
+2026-05-04 16:06:05 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Opening Lab Tests page
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Top Cities Available:
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Bangalore
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Delhi
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Mumbai
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Chennai
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Hyderabad
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Kolkata
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Pune
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - City Name: Ahmedabad
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Verifying first city is clickable
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Clicking first city: Bangalore
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - Navigation validation result: true
+2026-05-04 16:06:19 INFO  org.example.tests.TC15_DiagnosticsCityClickTest - DiagnosticsCityClickTest_19 completed successfully
+2026-05-04 16:06:19 INFO  org.example.base.BaseClass - ✅ TEST PASSED: DiagnosticsCityClickTest_19
+2026-05-04 16:06:19 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsCityClickTest_19
+2026-05-04 16:06:22 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-04 16:07:26 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-04 16:07:26 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-04 16:07:28 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-04 16:07:32 INFO  org.example.tests.TC16_DiagnosticsBackNavigationTest - Starting DiagnosticsBackNavigationTest_20
+2026-05-04 16:07:32 INFO  org.example.tests.TC16_DiagnosticsBackNavigationTest - Clicking on Lab Tests
+2026-05-04 16:07:46 INFO  org.example.tests.TC16_DiagnosticsBackNavigationTest - Validating Lab Tests page is opened
+2026-05-04 16:07:46 INFO  org.example.tests.TC16_DiagnosticsBackNavigationTest - Lab Tests page opened successfully
+2026-05-04 16:07:46 INFO  org.example.tests.TC16_DiagnosticsBackNavigationTest - Clicking on Practo logo to navigate back to Home page
+2026-05-04 16:07:49 INFO  org.example.tests.TC16_DiagnosticsBackNavigationTest - Current URL after clicking Practo logo: https://www.practo.com/
+2026-05-04 16:07:49 INFO  org.example.tests.TC16_DiagnosticsBackNavigationTest - DiagnosticsBackNavigationTest_20 completed successfully
+2026-05-04 16:07:49 INFO  org.example.base.BaseClass - ✅ TEST PASSED: DiagnosticsBackNavigationTest_20
+2026-05-04 16:07:49 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsBackNavigationTest_20
+2026-05-04 16:07:52 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
