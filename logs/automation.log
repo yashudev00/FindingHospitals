@@ -769,3 +769,144 @@
 2026-05-04 22:09:21 INFO  org.example.base.BaseClass - ✅ TEST PASSED: DiagnosticsCityClickTest_19
 2026-05-04 22:09:21 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsCityClickTest_19
 2026-05-04 22:09:23 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:20:07 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:20:07 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:20:10 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:20:24 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyDropdownFilters
+2026-05-05 09:20:25 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-05 09:20:28 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:20:36 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:20:36 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:20:40 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:20:44 ERROR org.example.base.BaseClass - ❌ TEST FAILED: verifyDropdownAndRadioFilters
+2026-05-05 09:20:45 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownAndRadioFilters
+2026-05-05 09:20:47 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:23:00 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:23:00 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:23:03 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:23:25 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:23:25 INFO  org.example.base.BaseClass - Closing browser for test: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:23:29 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:23:36 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:23:36 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:23:39 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:23:54 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyDropdownFilters
+2026-05-05 09:23:55 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-05 09:24:00 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:24:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:24:23 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:24:26 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:24:43 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyDropdownFilters
+2026-05-05 09:24:43 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-05 09:24:47 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:25:49 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:25:49 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:25:57 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:26:17 ERROR org.example.base.BaseClass - ❌ TEST FAILED: verifyDropdownFilters
+2026-05-05 09:26:18 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-05 09:26:30 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:26:40 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:26:40 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:26:44 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:27:01 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyDropdownFilters
+2026-05-05 09:27:01 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-05 09:27:06 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:27:15 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:27:15 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:27:19 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:27:29 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyDropdownAndRadioFilters
+2026-05-05 09:27:29 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownAndRadioFilters
+2026-05-05 09:27:33 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:27:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:27:45 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:27:49 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:28:14 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:28:15 INFO  org.example.base.BaseClass - Closing browser for test: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:28:19 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:28:50 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:28:50 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:28:53 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:29:05 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyDropdownFilters
+2026-05-05 09:29:06 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-05 09:29:09 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:29:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:29:12 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:29:15 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:29:20 ERROR org.example.base.BaseClass - ❌ TEST FAILED: verifyDropdownAndRadioFilters
+2026-05-05 09:29:20 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownAndRadioFilters
+2026-05-05 09:29:23 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:32:26 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:32:26 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:32:29 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:35:30 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:35:30 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:35:32 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:35:42 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyDropdownAndRadioFilters
+2026-05-05 09:35:43 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownAndRadioFilters
+2026-05-05 09:35:46 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:35:53 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:35:53 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:35:56 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:36:01 ERROR org.example.base.BaseClass - ❌ TEST FAILED: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:36:01 INFO  org.example.base.BaseClass - Closing browser for test: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:36:03 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:36:55 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:36:55 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:36:58 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:37:02 ERROR org.example.base.BaseClass - ❌ TEST FAILED: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:37:02 INFO  org.example.base.BaseClass - Closing browser for test: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:37:05 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:37:20 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:37:20 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:37:23 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:37:39 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:37:40 INFO  org.example.base.BaseClass - Closing browser for test: verifyResetFiltersUsingCorrectAssertions
+2026-05-05 09:37:43 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:38:06 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:38:06 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:38:09 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:38:21 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyDropdownFilters
+2026-05-05 09:38:22 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-05 09:38:26 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:39:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481472\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:39:59 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:40:01 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:40:13 INFO  org.example.base.BaseClass - ✅ TEST PASSED: verifyDropdownFilters
+2026-05-05 09:40:14 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-05 09:40:18 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
