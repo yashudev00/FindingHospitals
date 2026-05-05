@@ -18,26 +18,21 @@ public class TC19_CorporateFormInvalidInputTest extends BaseClass {
 
         log.info("Starting CorporateFormInvalidInputTest_23");
 
-        //Create Page Object
         CorporateWellnessPage corporatePage =
                 new CorporateWellnessPage(driver);
 
-        //Step 1: Open Corporate → Health & Wellness Plans
         log.info("Clicking on Corporate menu");
         corporatePage.clickCorporateMenu();
 
         log.info("Clicking on Health & Wellness Plans");
         corporatePage.clickHealthAndWellnessPlans();
 
-        //Step 2: Enter INVALID form details
         log.info("Entering invalid form details");
         corporatePage.enterInvalidFormDetails();
 
-        //Step 3: Check Schedule Demo button status
         boolean isClickable = corporatePage.isScheduleDemoClickable();
         log.info("Is Schedule Demo Clickable: {}", isClickable);
 
-        //Step 4: Assertion
         Assert.assertFalse(
                 isClickable,
                 "Schedule Demo button should NOT be clickable for invalid input"

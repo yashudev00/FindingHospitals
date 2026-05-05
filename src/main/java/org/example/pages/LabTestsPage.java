@@ -35,6 +35,12 @@ public class LabTestsPage {
     @FindBy(xpath = "//div[@class='u-bold']")
     private List<WebElement> skinRelatedTests;
 
+    @FindBy(xpath = "(//div[text()='ADD TO CART'][@class='o-f-color--plight'])[1]")
+    private List<WebElement> clickAddToCart;
+
+    @FindBy(xpath = "//span[@class='o-font-size--12']")
+    private WebElement cartItem;
+
     public LabTestsPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -83,5 +89,29 @@ public class LabTestsPage {
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
+
+
+    public void addToCart() {
+        int clickedCount = 0;
+
+        // Click each button
+        for (WebElement button : clickAddToCart) {
+            button.click();
+            clickedCount++;
+        }
+
+        // Compare numerics only
+        int cartCount = getCartItemCount();
+        if (cartCount != clickedCount) {
+            throw new AssertionError("Cart count mismatch! Expected: "
+                    + clickedCount + " but found: " + cartCount);
+        }
+    }
+
+    public int getCartItemCount() {
+        String countText = cartItem.getText().replaceAll("[^0-9]", ""); // keep only digits
+        return countText.isEmpty() ? 0 : Integer.parseInt(countText);
+    }
+
 
 }

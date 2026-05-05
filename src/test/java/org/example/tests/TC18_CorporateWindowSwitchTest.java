@@ -17,23 +17,18 @@ public class TC18_CorporateWindowSwitchTest extends BaseClass {
 
         log.info("Starting CorporateWindowSwitchTest_22");
 
-        //Create Page Object
         CorporateWellnessPage corporateWellnessPage =
                 new CorporateWellnessPage(driver);
 
-        //Step 1: Click on Corporate
         log.info("Clicking on Corporate menu");
         corporateWellnessPage.clickCorporateMenu();
 
-        //Step 2: Click on Health & Wellness Plans
         log.info("Clicking on Health & Wellness Plans");
         corporateWellnessPage.clickHealthAndWellnessPlans();
 
-        //Step 3: Capture page header text
         String headerText = corporateWellnessPage.getPageHeaderText();
         log.info("Corporate Wellness Page Header: {}", headerText);
 
-        //Step 4: Validate page header
         Assert.assertTrue(
                 headerText.toLowerCase().contains("wellness")
                         || headerText.toLowerCase().contains("corporate"),

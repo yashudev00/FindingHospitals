@@ -18,14 +18,11 @@ public class TC16_DiagnosticsBackNavigationTest extends BaseClass {
 
         log.info("Starting DiagnosticsBackNavigationTest_20");
 
-        //Create Page Object
         LabTestsPage labTestsPage = new LabTestsPage(driver);
 
-        //Step 1: Click Lab Tests
         log.info("Clicking on Lab Tests");
         labTestsPage.openLabTests();
 
-        //Step 2: Validate Lab Tests page opened
         log.info("Validating Lab Tests page is opened");
         Assert.assertTrue(
                 labTestsPage.isTopCitiesDisplayed(),
@@ -33,11 +30,9 @@ public class TC16_DiagnosticsBackNavigationTest extends BaseClass {
         );
         log.info("Lab Tests page opened successfully");
 
-        //Step 3: Click Practo logo
         log.info("Clicking on Practo logo to navigate back to Home page");
         labTestsPage.clickPractoLogo();
 
-        //Step 4: Validate navigation to Home page
         String currentUrl = labTestsPage.getCurrentUrl();
         log.info("Current URL after clicking Practo logo: {}", currentUrl);
 

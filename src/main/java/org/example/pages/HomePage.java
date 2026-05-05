@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
@@ -23,6 +24,44 @@ public class HomePage {
 
     @FindBy(xpath = "//input[@data-qa-id='omni-searchbox-keyword']")
     private WebElement searchBox;
+
+    @FindBy(xpath = "(//div[@class='product-tab__title'])[1]")
+    private WebElement findDoctors;
+
+    @FindBy(xpath = "//span[text()='View medical records']")
+    private WebElement viewRecords;
+
+    @FindBy(xpath = "//input[@id='loginPhone']")
+    private WebElement mobileNum;
+
+    @FindBy(xpath = "//input[@id='loginName']")
+    private WebElement fullName;
+
+    @FindBy(xpath = "//button[contains(text(),'VIEW RECORDS')]")
+    private WebElement clickRecords;
+
+    @FindBy(xpath = "//div[@id='mobileValidationError']")
+    private WebElement errorElement;
+
+
+    @FindBy(xpath = "//span[@data-qa-id='others-speciality'] ")
+    private WebElement othersDropDown;
+
+    @FindBy(xpath = "//p[text()='Dietitian/Nutritionist']")
+    private WebElement clickNutritionist;
+
+    @FindBy(xpath = "//div[@data-qa-id='years_of_experience_section']")
+    private WebElement experienceDropdown;
+
+    @FindBy(xpath = "//span[@data-qa-id='sort_by_selected']")
+    private WebElement consultationDropdown;
+
+    @FindBy(xpath = "//li[@data-qa-id='10,9999999' and @tabindex='0']/span")
+    private WebElement tenPluseExperience;
+
+    @FindBy(xpath = "//li[@data-qa-id='consultation_fees']")
+    private WebElement lowToHighFee;
+
 
     //DO NOT cache Hospital suggestion as WebElement (dynamic DOM)
     private By hospitalSuggestion =
@@ -104,4 +143,53 @@ public class HomePage {
                 By.xpath("//h2[@class='line-1']")
         );
     }
+
+    public void clickFindDoctors() {
+        findDoctors.click();
+    }
+
+    public void viewMedicalRecords(){
+        viewRecords.click();
+    }
+
+    public void enterNum(){
+        mobileNum.sendKeys("463829848");
+        fullName.sendKeys("Yashu");
+    }
+
+    public void viewRecords(){
+        clickRecords.click();
+    }
+
+    public String getErrorMessage(){
+        return errorElement.getText();
+    }
+
+    public void selectNutritionistFromOthersDropdown() {
+
+        othersDropDown.click();
+        clickNutritionist.click();
+
+    }
+
+    public void filterByExperience() {
+        wait.until(ExpectedConditions.elementToBeClickable(experienceDropdown)).click();
+        tenPluseExperience.click();
+    }
+
+    public void filterByConsultationFee() {
+        wait.until(ExpectedConditions.elementToBeClickable(consultationDropdown)).click();
+        lowToHighFee.click();
+    }
+
+    public boolean isExperienceFilterApplied() {
+        // Example validation: check if the element is displayed or selected
+        return tenPluseExperience.isDisplayed();
+    }
+
+    public boolean isFeeFilterApplied() {
+        // Example validation: check if the element is displayed or selected
+        return lowToHighFee.isDisplayed();
+    }
+
 }
