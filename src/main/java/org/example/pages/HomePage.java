@@ -2,8 +2,6 @@ package org.example.pages;
 
 import org.example.utility.ConfigReader;
 import org.example.utility.WaitUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,19 +9,30 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
+
 public class HomePage {
 
-    WebDriver driver;
-    WebDriverWait wait;
+    private WebDriver driver;
+    private WebDriverWait wait;
 
     @FindBy(xpath = "//input[@data-qa-id='omni-searchbox-locality']")
     private WebElement locationInput;
 
-    @FindBy(xpath = "//i[@class='icon-ic_cross_solid']")
+    @FindBy(className = "c-omni-clear")
     private WebElement clearLocation;
 
     @FindBy(xpath = "//input[@data-qa-id='omni-searchbox-keyword']")
     private WebElement searchBox;
+
+    @FindBy(xpath = "//div[@data-qa-id='omni-suggestion-main']")
+    private List<WebElement> citySuggestions;
+
+    @FindBy(xpath = "//div[@data-qa-id='omni-suggestion-main' and normalize-space()='Hospital']")
+    private WebElement hospitalSuggestion;
+
+    @FindBy(xpath = "//div[@class='c-estb-info']")
+    private List<WebElement> hospitalResults;
 
     @FindBy(xpath = "(//div[@class='product-tab__title'])[1]")
     private WebElement findDoctors;
@@ -31,20 +40,19 @@ public class HomePage {
     @FindBy(xpath = "//span[text()='View medical records']")
     private WebElement viewRecords;
 
-    @FindBy(xpath = "//input[@id='loginPhone']")
+    @FindBy(id="loginPhone")
     private WebElement mobileNum;
 
-    @FindBy(xpath = "//input[@id='loginName']")
+    @FindBy(id="loginName")
     private WebElement fullName;
 
     @FindBy(xpath = "//button[contains(text(),'VIEW RECORDS')]")
     private WebElement clickRecords;
 
-    @FindBy(xpath = "//div[@id='mobileValidationError']")
+    @FindBy(id="mobileValidationError")
     private WebElement errorElement;
 
-
-    @FindBy(xpath = "//span[@data-qa-id='others-speciality'] ")
+    @FindBy(xpath = "//span[@data-qa-id='others-speciality']")
     private WebElement othersDropDown;
 
     @FindBy(xpath = "//p[text()='Dietitian/Nutritionist']")
@@ -53,19 +61,44 @@ public class HomePage {
     @FindBy(xpath = "//div[@data-qa-id='years_of_experience_section']")
     private WebElement experienceDropdown;
 
+    @FindBy(xpath = "(//li[@class='c-dropdown__list__item'])[6]")
+    private WebElement tenPlusExperience;
+
     @FindBy(xpath = "//span[@data-qa-id='sort_by_selected']")
     private WebElement consultationDropdown;
-
-    @FindBy(xpath = "//li[@data-qa-id='10,9999999' and @tabindex='0']/span")
-    private WebElement tenPluseExperience;
 
     @FindBy(xpath = "//li[@data-qa-id='consultation_fees']")
     private WebElement lowToHighFee;
 
+    @FindBy(xpath = "//i[@data-qa-id='all_filters_icon']")
+    private WebElement allFiltersIcon;
 
-    //DO NOT cache Hospital suggestion as WebElement (dynamic DOM)
-    private By hospitalSuggestion =
-            By.xpath("//div[@data-qa-id='omni-suggestion-main' and normalize-space()='Hospital']");
+    @FindBy(xpath = "(//div[@data-qa-id='Fees_radio'])[3]")
+    private WebElement feesRadioOption;
+
+    @FindBy(xpath = "(//div[@data-qa-id='Availability_radio'])[2]")
+    private WebElement availabilityRadioOption;
+
+    @FindBy(xpath = "(//span[@data-qa-id='selected_dropdown_filter'])[1]")
+    private WebElement genderDropdown;
+
+    @FindBy(xpath = "//li[@aria-label='Male Doctor']")
+    private WebElement maleDoctorOption;
+
+    @FindBy(xpath = "(//i[contains(@class,'icon-ic_dropdown')])[2]")
+    private WebElement patientStoriesDropdown;
+
+    @FindBy(xpath = "//li[@aria-label='40+ Patient Stories']")
+    private WebElement patientStories40Plus;
+
+    @FindBy(xpath = "(//span[@data-qa-id='selected_dropdown_filter'])[3]")
+    private WebElement selectedExperienceFilterText;
+
+    @FindBy(xpath = "//span[@data-qa-id='sort_by_selected']")
+    private WebElement selectedConsultationFeeText;
+
+    @FindBy(xpath = "//button[@class='c-btn--unstyled  u-spacer--right-thin']")
+    private WebElement resetFiltersButton;
 
     public HomePage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
@@ -73,75 +106,37 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-    //Search hospitals in default city
     public void searchHospitalInDefaultCity() {
-
-        String city = ConfigReader.get("defaultCity");
-
-        WaitUtils.waitForClickable(
-                driver,
-                By.xpath("//input[@data-qa-id='omni-searchbox-locality']")
-        ).click();
-
-        clearLocation.click();
-        locationInput.sendKeys(city);
-
-        // ✅ Re-locate city suggestion dynamically
-        WaitUtils.waitForClickable(
-                driver,
-                By.xpath("//div[@data-qa-id='omni-suggestion-main' and normalize-space()='"
-                        + city + "']")
-        ).click();
-
-        searchBox.clear();
-        searchBox.sendKeys("Hospital");
-
-        // ✅ Re-locate hospital suggestion dynamically
-        WaitUtils.waitForClickable(driver, hospitalSuggestion).click();
+        searchHospitalInCity(ConfigReader.get("defaultCity"));
     }
 
-    // ✅ Search hospitals in specific city (used in TC08)
     public void searchHospitalInSpecificCity(String city) {
+        searchHospitalInCity(city);
+    }
 
-        WaitUtils.waitForClickable(
-                driver,
-                By.xpath("//input[@data-qa-id='omni-searchbox-locality']")
-        ).click();
-
+    private void searchHospitalInCity(String city) {
+        locationInput.click();
         clearLocation.click();
         locationInput.sendKeys(city);
-
-        // ✅ Re-locate city suggestion dynamically (IMPORTANT)
-        WaitUtils.waitForClickable(
-                driver,
-                By.xpath("//div[@data-qa-id='omni-suggestion-main' and normalize-space()='"
-                        + city + "']")
-        ).click();
+        WaitUtils.waitForElementsVisible(driver, citySuggestions);
+        for (WebElement suggestion : citySuggestions) {
+            if (suggestion.getText().trim().equalsIgnoreCase(city)) {
+                suggestion.click();
+                break;
+            }
+        }
 
         searchBox.clear();
         searchBox.sendKeys("Hospital");
-
-        // ✅ Re-locate hospital suggestion dynamically
-        WaitUtils.waitForClickable(driver, hospitalSuggestion).click();
+        hospitalSuggestion.click();
     }
-    // ✅ NEW: Go to Hospitals page directly (no default city logic)
+
     public void searchHospitalDirectly() {
-
-        // Enter Hospital keyword directly
-        WaitUtils.waitForClickable(
-                driver,
-                By.xpath("//input[@data-qa-id='omni-searchbox-keyword']")
-        ).click();
-
+        searchBox.click();
         searchBox.clear();
         searchBox.sendKeys("Hospital");
-        WaitUtils.waitForClickable(driver, hospitalSuggestion).click();
-
-        // Wait until hospital results load
-        WaitUtils.waitForPresence(
-                driver,
-                By.xpath("//h2[@class='line-1']")
-        );
+        hospitalSuggestion.click();
+        WaitUtils.waitForElementsVisible(driver, hospitalResults);
     }
 
     public void clickFindDoctors() {
@@ -174,7 +169,7 @@ public class HomePage {
 
     public void filterByExperience() {
         wait.until(ExpectedConditions.elementToBeClickable(experienceDropdown)).click();
-        tenPluseExperience.click();
+        tenPlusExperience.click();
     }
 
     public void filterByConsultationFee() {
@@ -182,14 +177,56 @@ public class HomePage {
         lowToHighFee.click();
     }
 
-    public boolean isExperienceFilterApplied() {
-        // Example validation: check if the element is displayed or selected
-        return tenPluseExperience.isDisplayed();
+    // ================= NEW FILTER METHODS (ADD ONLY) =================
+
+    public void openAllFilters() {
+        allFiltersIcon.click();
     }
 
-    public boolean isFeeFilterApplied() {
-        // Example validation: check if the element is displayed or selected
-        return lowToHighFee.isDisplayed();
+    public void selectFeesFilter(int index) {
+        feesRadioOption.click();
+    }
+
+    public void selectAvailabilityFilter(int index) {
+        availabilityRadioOption.click();
+    }
+
+    public void selectFeesFilterSafely() {
+        wait.until(ExpectedConditions.visibilityOf(feesRadioOption));
+        ((org.openqa.selenium.JavascriptExecutor) driver)
+                .executeScript("arguments[0].click();", feesRadioOption);
+    }
+
+    public void selectAvailabilityFilterSafely() {
+        wait.until(ExpectedConditions.visibilityOf(availabilityRadioOption));
+        ((org.openqa.selenium.JavascriptExecutor) driver)
+                .executeScript("arguments[0].click();", availabilityRadioOption);
+    }
+
+    public void filterByGender(String genderOption) {
+        genderDropdown.click();
+        maleDoctorOption.click();
+    }
+
+    public void filterByPatientStories(String option) {
+        patientStoriesDropdown.click();
+        patientStories40Plus.click();
+    }
+
+    public boolean isExperienceFilterAppliedBySelectedText() {
+        return selectedExperienceFilterText.getText().contains("10");
+    }
+
+    public boolean isConsultationFeeFilterAppliedBySelectedText() {
+        return !selectedConsultationFeeText.getText().equalsIgnoreCase("Sort by");
+    }
+
+    public boolean isConsultationFeeFilterReset() {
+        return !feesRadioOption.getAttribute("class").contains("checked");
+    }
+
+    public void resetAllFilters() {
+        resetFiltersButton.click();
     }
 
 }

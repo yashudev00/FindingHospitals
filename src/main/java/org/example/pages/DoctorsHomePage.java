@@ -10,7 +10,6 @@ public class DoctorsHomePage {
 
     private WebDriver driver;
 
-    //Use By locator instead of WebElement
     private final By mumbaiDoctorsLink =
             By.xpath("//a[contains(@href,'/mumbai/doctors')]");
 
