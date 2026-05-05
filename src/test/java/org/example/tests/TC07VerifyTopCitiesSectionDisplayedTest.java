@@ -11,7 +11,7 @@ public class TC07VerifyTopCitiesSectionDisplayedTest extends BaseClass {
     @Test
     public void verifyTopCitiesSectionIsDisplayed() {
 
-        new HomePage(driver, wait).searchHospitalInDefaultCity();
+        new HomePage(driver, wait).searchHospitalDirectly();
         HospitalSearchPage searchPage = new HospitalSearchPage(driver);
 
         boolean isDisplayed = searchPage.isTopCitiesSectionDisplayed();

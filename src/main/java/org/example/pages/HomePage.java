@@ -19,7 +19,7 @@ public class HomePage {
     @FindBy(xpath = "//input[@data-qa-id='omni-searchbox-locality']")
     private WebElement locationInput;
 
-    @FindBy(xpath = "//i[@class='icon-ic_cross_solid']")
+    @FindBy(className = "c-omni-clear")
     private WebElement clearLocation;
 
     @FindBy(xpath = "//input[@data-qa-id='omni-searchbox-keyword']")
@@ -40,16 +40,16 @@ public class HomePage {
     @FindBy(xpath = "//span[text()='View medical records']")
     private WebElement viewRecords;
 
-    @FindBy(xpath = "//input[@id='loginPhone']")
+    @FindBy(id="loginPhone")
     private WebElement mobileNum;
 
-    @FindBy(xpath = "//input[@id='loginName']")
+    @FindBy(id="loginName")
     private WebElement fullName;
 
     @FindBy(xpath = "//button[contains(text(),'VIEW RECORDS')]")
     private WebElement clickRecords;
 
-    @FindBy(xpath = "//div[@id='mobileValidationError']")
+    @FindBy(id="mobileValidationError")
     private WebElement errorElement;
 
     @FindBy(xpath = "//span[@data-qa-id='others-speciality']")
@@ -69,6 +69,36 @@ public class HomePage {
 
     @FindBy(xpath = "//li[@data-qa-id='consultation_fees']")
     private WebElement lowToHighFee;
+
+    @FindBy(xpath = "//i[@data-qa-id='all_filters_icon']")
+    private WebElement allFiltersIcon;
+
+    @FindBy(xpath = "(//div[@data-qa-id='Fees_radio'])[3]")
+    private WebElement feesRadioOption;
+
+    @FindBy(xpath = "(//div[@data-qa-id='Availability_radio'])[2]")
+    private WebElement availabilityRadioOption;
+
+    @FindBy(xpath = "(//span[@data-qa-id='selected_dropdown_filter'])[1]")
+    private WebElement genderDropdown;
+
+    @FindBy(xpath = "//li[@aria-label='Male Doctor']")
+    private WebElement maleDoctorOption;
+
+    @FindBy(xpath = "(//i[contains(@class,'icon-ic_dropdown')])[2]")
+    private WebElement patientStoriesDropdown;
+
+    @FindBy(xpath = "//li[@aria-label='40+ Patient Stories']")
+    private WebElement patientStories40Plus;
+
+    @FindBy(xpath = "(//span[@data-qa-id='selected_dropdown_filter'])[3]")
+    private WebElement selectedExperienceFilterText;
+
+    @FindBy(xpath = "//span[@data-qa-id='sort_by_selected']")
+    private WebElement selectedConsultationFeeText;
+
+    @FindBy(xpath = "//button[@class='c-btn--unstyled  u-spacer--right-thin']")
+    private WebElement resetFiltersButton;
 
     public HomePage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
@@ -147,6 +177,56 @@ public class HomePage {
         lowToHighFee.click();
     }
 
+    // ================= NEW FILTER METHODS (ADD ONLY) =================
 
+    public void openAllFilters() {
+        allFiltersIcon.click();
+    }
+
+    public void selectFeesFilter(int index) {
+        feesRadioOption.click();
+    }
+
+    public void selectAvailabilityFilter(int index) {
+        availabilityRadioOption.click();
+    }
+
+    public void selectFeesFilterSafely() {
+        wait.until(ExpectedConditions.visibilityOf(feesRadioOption));
+        ((org.openqa.selenium.JavascriptExecutor) driver)
+                .executeScript("arguments[0].click();", feesRadioOption);
+    }
+
+    public void selectAvailabilityFilterSafely() {
+        wait.until(ExpectedConditions.visibilityOf(availabilityRadioOption));
+        ((org.openqa.selenium.JavascriptExecutor) driver)
+                .executeScript("arguments[0].click();", availabilityRadioOption);
+    }
+
+    public void filterByGender(String genderOption) {
+        genderDropdown.click();
+        maleDoctorOption.click();
+    }
+
+    public void filterByPatientStories(String option) {
+        patientStoriesDropdown.click();
+        patientStories40Plus.click();
+    }
+
+    public boolean isExperienceFilterAppliedBySelectedText() {
+        return selectedExperienceFilterText.getText().contains("10");
+    }
+
+    public boolean isConsultationFeeFilterAppliedBySelectedText() {
+        return !selectedConsultationFeeText.getText().equalsIgnoreCase("Sort by");
+    }
+
+    public boolean isConsultationFeeFilterReset() {
+        return !feesRadioOption.getAttribute("class").contains("checked");
+    }
+
+    public void resetAllFilters() {
+        resetFiltersButton.click();
+    }
 
 }

@@ -16,7 +16,7 @@ public class HospitalDetailsPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
-  @FindBy(xpath = "//span[@data-qa-id='hospital_name']")
+    @FindBy(xpath = "//span[@data-qa-id='hospital_name']")
     private WebElement hospitalName;
 
     @FindBy(xpath = "//span[contains(@class,'common__star-rating__value')]")
