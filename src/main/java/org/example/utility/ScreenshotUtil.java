@@ -22,17 +22,14 @@ public class ScreenshotUtil {
                     System.getProperty("user.dir") + "/screenshots";
 
             Files.createDirectories(new File(screenshotDir).toPath());
-
             File dest = new File(
                     screenshotDir + "/" + testName + "_" + timestamp + ".png"
             );
 
             Files.copy(src.toPath(), dest.toPath());
-
             System.out.println(
                     "Screenshot captured: " + dest.getAbsolutePath()
             );
-
         } catch (Exception e) {
             System.out.println("Failed to take screenshot: " + e.getMessage());
         }

@@ -18,7 +18,6 @@ public class BaseClass {
     protected WebDriver driver;
     protected WebDriverWait wait;
 
-    // ✅ Centralized logger for ALL test classes
     protected static final Logger log =
             LogManager.getLogger(BaseClass.class);
 
@@ -42,13 +41,13 @@ public class BaseClass {
         String testName = result.getMethod().getMethodName();
 
         if (result.getStatus() == ITestResult.FAILURE) {
-            log.error("❌ TEST FAILED: {}", testName);
+            log.error("TEST FAILED: {}", testName);
             ScreenshotUtil.takeScreenshot(driver, testName + "_FAILED");
         } else if (result.getStatus() == ITestResult.SUCCESS) {
-            log.info("✅ TEST PASSED: {}", testName);
+            log.info("TEST PASSED: {}", testName);
             ScreenshotUtil.takeScreenshot(driver, testName + "_PASSED");
         } else {
-            log.warn("⚠️ TEST SKIPPED: {}", testName);
+            log.warn("TEST SKIPPED: {}", testName);
         }
 
         if (driver != null) {
