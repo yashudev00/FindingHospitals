@@ -769,6 +769,94 @@
 2026-05-04 22:09:21 INFO  org.example.base.BaseClass - ✅ TEST PASSED: DiagnosticsCityClickTest_19
 2026-05-04 22:09:21 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsCityClickTest_19
 2026-05-04 22:09:23 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+<<<<<<< HEAD
+2026-05-05 09:13:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481456\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:13:35 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:13:39 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:14:00 INFO  org.example.base.BaseClass - ✅ TEST PASSED: LabTestsAddToCartTest_24
+2026-05-05 09:14:01 INFO  org.example.base.BaseClass - Closing browser for test: LabTestsAddToCartTest_24
+2026-05-05 09:14:03 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:19:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481456\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:19:59 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:20:02 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:20:13 INFO  org.example.base.BaseClass - ✅ TEST PASSED: LabTestsAddToCartTest_24
+2026-05-05 09:20:13 INFO  org.example.base.BaseClass - Closing browser for test: LabTestsAddToCartTest_24
+2026-05-05 09:20:16 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:22:15 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481456\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:22:15 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:22:18 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:22:32 INFO  org.example.base.BaseClass - ✅ TEST PASSED: findDoctors
+2026-05-05 09:22:32 INFO  org.example.base.BaseClass - Closing browser for test: findDoctors
+2026-05-05 09:22:35 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:39:39 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481456\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:39:39 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:39:42 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:39:46 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Starting test: Find Doctors with 10+ years of experience
+2026-05-05 09:39:46 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Clicking on 'Find Doctors'
+2026-05-05 09:39:49 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Selecting Nutritionist from Others dropdown
+2026-05-05 09:39:53 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Applying filter: 10+ years of experience
+2026-05-05 09:39:53 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Applying filter: Consultation fee (Low to High)
+2026-05-05 09:40:01 ERROR org.example.base.BaseClass - ❌ TEST FAILED: findDoctors
+2026-05-05 09:40:01 INFO  org.example.base.BaseClass - Closing browser for test: findDoctors
+2026-05-05 09:40:05 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:40:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481456\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:40:45 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:40:48 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:40:51 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Starting test: Find Doctors with 10+ years of experience
+2026-05-05 09:40:51 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Clicking on 'Find Doctors'
+2026-05-05 09:40:56 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Selecting Nutritionist from Others dropdown
+2026-05-05 09:40:59 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Applying filter: 10+ years of experience
+2026-05-05 09:40:59 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Applying filter: Consultation fee (Low to High)
+2026-05-05 09:41:02 INFO  org.example.base.BaseClass - ✅ TEST PASSED: findDoctors
+2026-05-05 09:41:02 INFO  org.example.base.BaseClass - Closing browser for test: findDoctors
+2026-05-05 09:41:05 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:45:17 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481456\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:45:17 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:45:20 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:45:26 INFO  org.example.tests.TC20_LabTestsAddToCartTest - Cart item count after adding: 1
+2026-05-05 09:45:26 INFO  org.example.tests.TC20_LabTestsAddToCartTest - Lab Tests Add To Cart Test completed successfully
+2026-05-05 09:45:26 INFO  org.example.base.BaseClass - ✅ TEST PASSED: LabTestsAddToCartTest_24
+2026-05-05 09:45:27 INFO  org.example.base.BaseClass - Closing browser for test: LabTestsAddToCartTest_24
+2026-05-05 09:45:29 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:52:50 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481456\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:52:50 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:52:53 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:52:56 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Starting test: Find Doctors with 10+ years of experience
+2026-05-05 09:52:56 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Clicking on 'Find Doctors'
+2026-05-05 09:53:01 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Selecting Nutritionist from Others dropdown
+2026-05-05 09:53:03 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Applying filter: 10+ years of experience
+2026-05-05 09:53:03 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Applying filter: Consultation fee (Low to High)
+2026-05-05 09:53:07 INFO  org.example.base.BaseClass - ✅ TEST PASSED: findDoctors
+2026-05-05 09:53:07 INFO  org.example.base.BaseClass - Closing browser for test: findDoctors
+2026-05-05 09:53:10 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-05 09:53:30 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481456\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-05 09:53:30 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-05 09:53:33 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-05 09:53:36 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Starting test: Find Doctors with 10+ years of experience
+2026-05-05 09:53:36 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Clicking on 'Find Doctors'
+2026-05-05 09:53:40 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Selecting Nutritionist from Others dropdown
+2026-05-05 09:53:43 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Applying filter: 10+ years of experience
+2026-05-05 09:53:43 INFO  org.example.tests.TC22_FindDoctorsWith10PlusYearsExperience - Applying filter: Consultation fee (Low to High)
+2026-05-05 09:53:52 ERROR org.example.base.BaseClass - ❌ TEST FAILED: findDoctors
+2026-05-05 09:53:52 INFO  org.example.base.BaseClass - Closing browser for test: findDoctors
+2026-05-05 09:53:56 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+=======
 2026-05-05 09:31:26 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\2481523\OneDrive - Cognizant\Desktop\final project\FindingHospitals\testng.xml
 
@@ -920,3 +1008,4 @@
 2026-05-05 09:39:01 INFO  org.example.base.BaseClass - ✅ TEST PASSED: filterByGenderMale
 2026-05-05 09:39:02 INFO  org.example.base.BaseClass - Closing browser for test: filterByGenderMale
 2026-05-05 09:39:04 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+>>>>>>> 2626905afebd4411213b0cfa9567543df27c0fc5

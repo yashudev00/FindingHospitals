@@ -20,27 +20,21 @@ public class TC17_CorporateWellnessLinkTest extends BaseClass {
 
         log.info("Starting CorporateWellnessLinkTest_21");
 
-        //Create Page Object
         CorporateWellnessPage corporatePage =
                 new CorporateWellnessPage(driver);
 
-        //Step 1: Capture parent window
         String parentWindow = driver.getWindowHandle();
         log.info("Captured parent window handle: {}", parentWindow);
 
-        //Step 2: Click Corporate menu
         log.info("Clicking on Corporate menu");
         corporatePage.clickCorporateMenu();
 
-        //Step 3: Click Health & Wellness Plans
         log.info("Clicking on Health & Wellness Plans");
         corporatePage.clickHealthAndWellnessPlans();
 
-        //Step 4: Fetch window handles
         Set<String> allWindows = driver.getWindowHandles();
         log.info("Total windows opened: {}", allWindows.size());
 
-        //Step 5: Assert same window is used
         Assert.assertEquals(
                 allWindows.size(),
                 1,
@@ -48,11 +42,9 @@ public class TC17_CorporateWellnessLinkTest extends BaseClass {
         );
         log.info("Verified that no new window was opened");
 
-        //Step 6: Capture window title
         String windowTitle = driver.getTitle();
         log.info("Window Name (Title): {}", windowTitle);
 
-        //Step 7: Validate navigation to Wellness page
         boolean navigationStatus =
                 driver.getCurrentUrl().toLowerCase().contains("corporate")
                         || driver.getCurrentUrl().toLowerCase().contains("wellness")
@@ -65,7 +57,6 @@ public class TC17_CorporateWellnessLinkTest extends BaseClass {
                 "Health & Wellness page did not open"
         );
 
-        //Step 8: Ensure still on parent window
         Assert.assertEquals(
                 driver.getWindowHandle(),
                 parentWindow,
