@@ -18,7 +18,7 @@
              <class name="org.example.tests.TC07_VerifyTopCitiesSectionDisplayed"/>
              <class name="org.example.tests.TC08_CaptureTopCities"/>
              <class name="org.example.tests.TC09_VerifyTopCitiesAreUnique"/>
-<!--            <class name="org.example.tests.TC10_FindEligibleHospitalsInTopCities"/>-->
+             <class name="org.example.tests.TC10_FindEligibleHospitalsInTopCities"/>
              <class name="org.example.tests.TC11_VerifyNavigation"/>
              <class name="org.example.tests.TC12_FilterByGender"/>
             <class name="org.example.tests.TC13_FilterByPatientStories"/>
