@@ -2,6 +2,8 @@ package org.example.pages;
 
 import org.example.utility.ConfigReader;
 import org.example.utility.WaitUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -115,20 +117,23 @@ public class HomePage {
     }
 
     private void searchHospitalInCity(String city) {
+
         locationInput.click();
         clearLocation.click();
         locationInput.sendKeys(city);
-        WaitUtils.waitForElementsVisible(driver, citySuggestions);
-        for (WebElement suggestion : citySuggestions) {
-            if (suggestion.getText().trim().equalsIgnoreCase(city)) {
-                suggestion.click();
-                break;
-            }
-        }
 
-        searchBox.clear();
-        searchBox.sendKeys("Hospital");
-        hospitalSuggestion.click();
+        By suggestionBy = By.xpath(
+                "//div[@data-qa-id='omni-suggestion-main'][1]"
+        );
+
+        WebElement suggestion =
+                WaitUtils.waitForVisible(driver, suggestionBy);
+
+        ((JavascriptExecutor) driver)
+                .executeScript(
+                        "arguments[0].click();",
+                        suggestion
+                );
     }
 
     public void searchHospitalDirectly() {
@@ -176,8 +181,6 @@ public class HomePage {
         wait.until(ExpectedConditions.elementToBeClickable(consultationDropdown)).click();
         lowToHighFee.click();
     }
-
-    // ================= NEW FILTER METHODS (ADD ONLY) =================
 
     public void openAllFilters() {
         allFiltersIcon.click();

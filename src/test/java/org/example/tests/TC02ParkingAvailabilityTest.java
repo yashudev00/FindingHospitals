@@ -23,7 +23,7 @@ public class TC02ParkingAvailabilityTest extends BaseClass {
                     new HospitalDetailsPage(driver, wait);
 
             if (details.hasParking()) {
-                log.info("✅ Hospital with parking found: {}", details.getHospitalName());
+                log.info("Hospital with parking found: {}", details.getHospitalName());
                 found = true;
                 searchPage.closeAndReturnToList();
                 break;

@@ -2027,3 +2027,609 @@ Session ID: c9dddfecdc1e2a706d654ff88866a90e
 2026-05-05 17:08:56 INFO  org.example.base.BaseClass - TEST PASSED: verifyResetFilters
 2026-05-05 17:08:56 INFO  org.example.base.BaseClass - Closing browser for test: verifyResetFilters
 2026-05-05 17:08:59 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 13:59:37 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\OneDrive - Cognizant\Desktop\final project shreyanka\FindingHospitals\testng.xml
+
+2026-05-06 13:59:37 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 13:59:42 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 13:59:56 INFO  org.example.base.BaseClass - Open 24x7 hospital found: Dr L H Hiranandani Hospital, Powai
+2026-05-06 13:59:56 INFO  org.example.base.BaseClass - TEST PASSED: verifyFirstHospitalOpen24x7
+2026-05-06 13:59:57 INFO  org.example.base.BaseClass - Closing browser for test: verifyFirstHospitalOpen24x7
+2026-05-06 13:59:59 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 13:59:59 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:00:02 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:00:16 INFO  org.example.base.BaseClass - ✅ Hospital with parking found: Dr L H Hiranandani Hospital, Powai
+2026-05-06 14:00:16 INFO  org.example.base.BaseClass - TEST PASSED: verifyFirstHospitalWithParking
+2026-05-06 14:00:16 INFO  org.example.base.BaseClass - Closing browser for test: verifyFirstHospitalWithParking
+2026-05-06 14:00:20 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:00:20 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:00:22 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:00:33 INFO  org.example.base.BaseClass - Hospital with rating > 3.5 found: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 14:00:33 INFO  org.example.base.BaseClass - TEST PASSED: verifyHospitalRatingAbove35
+2026-05-06 14:00:33 INFO  org.example.base.BaseClass - Closing browser for test: verifyHospitalRatingAbove35
+2026-05-06 14:00:36 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:00:36 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:00:38 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:00:42 ERROR org.example.base.BaseClass - TEST FAILED: findNearestEligibleHospital
+2026-05-06 14:00:42 INFO  org.example.base.BaseClass - Closing browser for test: findNearestEligibleHospital
+2026-05-06 14:00:44 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:00:44 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:00:46 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:01:12 INFO  org.example.base.BaseClass - Best rated hospital: Cloudnine Hospital, Malad West | Rating: 5.0
+2026-05-06 14:01:12 INFO  org.example.base.BaseClass - TEST PASSED: findBestRatedEligibleHospital
+2026-05-06 14:01:12 INFO  org.example.base.BaseClass - Closing browser for test: findBestRatedEligibleHospital
+2026-05-06 14:01:16 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:01:16 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:01:18 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:01:58 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 14:02:11 INFO  org.example.pages.HospitalDetailsPage - Rating not available → treating as 0
+2026-05-06 14:02:17 INFO  org.example.base.BaseClass - Eligible Hospital: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 14:02:17 INFO  org.example.base.BaseClass - Eligible Hospital: Wockhardt Hospitals (formerly known as Umrao Hospital), Mira Road | Rating: 4.0
+2026-05-06 14:02:17 INFO  org.example.base.BaseClass - Eligible Hospital: Cloudnine Hospital, Malad West | Rating: 5.0
+2026-05-06 14:02:17 INFO  org.example.base.BaseClass - TEST PASSED: verifyMultipleEligibleHospitals
+2026-05-06 14:02:17 INFO  org.example.base.BaseClass - Closing browser for test: verifyMultipleEligibleHospitals
+2026-05-06 14:02:21 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:02:21 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:02:23 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:02:32 INFO  org.example.base.BaseClass - Top Cities section is displayed
+2026-05-06 14:02:32 INFO  org.example.base.BaseClass - TEST PASSED: verifyTopCitiesSectionIsDisplayed
+2026-05-06 14:02:32 INFO  org.example.base.BaseClass - Closing browser for test: verifyTopCitiesSectionIsDisplayed
+2026-05-06 14:02:34 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:02:34 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:02:37 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Kanpur
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Delhi
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Thane
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Chennai
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Vadodara
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Ernakulam
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Lucknow
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Faridabad
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Jaipur
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Top City Captured: Bangalore
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - TEST PASSED: captureTopCities
+2026-05-06 14:02:47 INFO  org.example.base.BaseClass - Closing browser for test: captureTopCities
+2026-05-06 14:02:50 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:02:50 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:02:52 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Kanpur
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Delhi
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Thane
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Chennai
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Vadodara
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Ernakulam
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Lucknow
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Faridabad
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Jaipur
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - City: Bangalore
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - Top Cities list contains only unique values
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - TEST PASSED: verifyTopCitiesAreUnique
+2026-05-06 14:03:02 INFO  org.example.base.BaseClass - Closing browser for test: verifyTopCitiesAreUnique
+2026-05-06 14:03:05 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:03:05 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:03:08 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:03:12 INFO  org.example.base.BaseClass - Navigating to Mumbai doctors page
+2026-05-06 14:03:17 INFO  org.example.base.BaseClass - Verifying URL contains mumbai/doctors
+2026-05-06 14:03:17 INFO  org.example.base.BaseClass - TEST PASSED: verifyNavigation
+2026-05-06 14:03:17 INFO  org.example.base.BaseClass - Closing browser for test: verifyNavigation
+2026-05-06 14:03:20 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:03:20 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:03:22 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:03:26 INFO  org.example.base.BaseClass - Navigating to Mumbai Doctors page
+2026-05-06 14:03:29 INFO  org.example.base.BaseClass - Applying Gender filter: Male
+2026-05-06 14:03:30 INFO  org.example.base.BaseClass - Verifying doctors list is shown
+2026-05-06 14:03:30 INFO  org.example.base.BaseClass - TEST PASSED: filterByGenderMale
+2026-05-06 14:03:30 INFO  org.example.base.BaseClass - Closing browser for test: filterByGenderMale
+2026-05-06 14:03:32 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:03:32 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:03:35 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:03:39 INFO  org.example.base.BaseClass - Navigating to Mumbai Doctors page
+2026-05-06 14:03:50 INFO  org.example.base.BaseClass - Applying filters: Gender Male, Patient Stories 20+
+2026-05-06 14:03:54 INFO  org.example.base.BaseClass - Validating result count text is present
+2026-05-06 14:03:54 INFO  org.example.base.BaseClass - TEST PASSED: filterByPatientStories
+2026-05-06 14:03:54 INFO  org.example.base.BaseClass - Closing browser for test: filterByPatientStories
+2026-05-06 14:03:58 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:03:58 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:04:01 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:04:05 INFO  org.example.base.BaseClass - Navigating to Mumbai Doctors page
+2026-05-06 14:04:08 INFO  org.example.base.BaseClass - Applying filters: Gender, Patient Stories, Experience, Fees
+2026-05-06 14:04:12 INFO  org.example.base.BaseClass - Validating doctors are shown after filters
+2026-05-06 14:04:12 INFO  org.example.base.BaseClass - TEST PASSED: filterByFeesAndExperience
+2026-05-06 14:04:12 INFO  org.example.base.BaseClass - Closing browser for test: filterByFeesAndExperience
+2026-05-06 14:04:15 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:04:15 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:04:18 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:04:22 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Starting DiagnosticsCityClickTest_19
+2026-05-06 14:04:22 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Opening Lab Tests page
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Top Cities Available:
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Bangalore
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Delhi
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Mumbai
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Chennai
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Hyderabad
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Kolkata
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Pune
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Ahmedabad
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Verifying first city is clickable
+2026-05-06 14:04:24 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Clicking first city: Bangalore
+2026-05-06 14:04:25 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Navigation validation result: true
+2026-05-06 14:04:25 INFO  org.example.tests.TC15DiagnosticsCityClickTest - DiagnosticsCityClickTest_19 completed successfully
+2026-05-06 14:04:25 INFO  org.example.base.BaseClass - TEST PASSED: DiagnosticsCityClickTest_19
+2026-05-06 14:04:25 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsCityClickTest_19
+2026-05-06 14:04:28 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:04:28 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:04:31 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:04:35 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Starting DiagnosticsBackNavigationTest_20
+2026-05-06 14:04:35 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Clicking on Lab Tests
+2026-05-06 14:04:41 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Validating Lab Tests page is opened
+2026-05-06 14:04:41 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Lab Tests page opened successfully
+2026-05-06 14:04:41 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Clicking on Practo logo to navigate back to Home page
+2026-05-06 14:04:44 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Current URL after clicking Practo logo: https://www.practo.com/
+2026-05-06 14:04:44 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - DiagnosticsBackNavigationTest_20 completed successfully
+2026-05-06 14:04:44 INFO  org.example.base.BaseClass - TEST PASSED: DiagnosticsBackNavigationTest_20
+2026-05-06 14:04:44 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsBackNavigationTest_20
+2026-05-06 14:04:47 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:04:47 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:04:50 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:04:54 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Starting CorporateWellnessLinkTest_21
+2026-05-06 14:04:54 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Captured parent window handle: 6EE88018DBD472A7155F81CCD1218DF2
+2026-05-06 14:04:54 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Clicking on Corporate menu
+2026-05-06 14:04:54 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Clicking on Health & Wellness Plans
+2026-05-06 14:04:59 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Total windows opened: 1
+2026-05-06 14:04:59 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Verified that no new window was opened
+2026-05-06 14:04:59 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Window Name (Title): Employee Health | Corporate Health & Wellness Plans | Practo
+2026-05-06 14:04:59 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Navigation validation result: true
+2026-05-06 14:04:59 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Verified navigation remained in the parent window
+2026-05-06 14:04:59 INFO  org.example.tests.TC17CorporateWellnessLinkTest - CorporateWellnessLinkTest_21 completed successfully
+2026-05-06 14:04:59 INFO  org.example.base.BaseClass - TEST PASSED: CorporateWellnessLinkTest_21
+2026-05-06 14:04:59 INFO  org.example.base.BaseClass - Closing browser for test: CorporateWellnessLinkTest_21
+2026-05-06 14:05:04 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:05:04 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:05:07 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:05:11 INFO  org.example.tests.TC18CorporateWindowSwitchTest - Starting CorporateWindowSwitchTest_22
+2026-05-06 14:05:11 INFO  org.example.tests.TC18CorporateWindowSwitchTest - Clicking on Corporate menu
+2026-05-06 14:05:11 INFO  org.example.tests.TC18CorporateWindowSwitchTest - Clicking on Health & Wellness Plans
+2026-05-06 14:05:16 INFO  org.example.tests.TC18CorporateWindowSwitchTest - Corporate Wellness Page Header: Your Workplace Health and Wellness Partner
+2026-05-06 14:05:16 INFO  org.example.tests.TC18CorporateWindowSwitchTest - CorporateWindowSwitchTest_22 completed successfully
+2026-05-06 14:05:16 INFO  org.example.base.BaseClass - TEST PASSED: CorporateWindowSwitchTest_22
+2026-05-06 14:05:16 INFO  org.example.base.BaseClass - Closing browser for test: CorporateWindowSwitchTest_22
+2026-05-06 14:05:22 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:05:22 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:05:25 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:05:29 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Starting CorporateFormInvalidInputTest_23
+2026-05-06 14:05:29 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Clicking on Corporate menu
+2026-05-06 14:05:29 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Clicking on Health & Wellness Plans
+2026-05-06 14:05:35 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Entering invalid form details
+2026-05-06 14:05:35 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Is Schedule Demo Clickable: false
+2026-05-06 14:05:35 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - CorporateFormInvalidInputTest_23 completed successfully
+2026-05-06 14:05:35 INFO  org.example.base.BaseClass - TEST PASSED: CorporateFormInvalidInputTest_23
+2026-05-06 14:05:36 INFO  org.example.base.BaseClass - Closing browser for test: CorporateFormInvalidInputTest_23
+2026-05-06 14:05:39 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:05:39 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:05:41 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:05:48 INFO  org.example.tests.TC20LabTestsAddToCartTest - Cart item count after adding: 1
+2026-05-06 14:05:48 INFO  org.example.tests.TC20LabTestsAddToCartTest - Lab Tests Add To Cart Test completed successfully
+2026-05-06 14:05:48 INFO  org.example.base.BaseClass - TEST PASSED: LabTestsAddToCartTest_24
+2026-05-06 14:05:48 INFO  org.example.base.BaseClass - Closing browser for test: LabTestsAddToCartTest_24
+2026-05-06 14:05:52 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:05:52 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:05:54 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:06:05 INFO  org.example.base.BaseClass - TEST PASSED: LabTestsAddToCartTest_24
+2026-05-06 14:06:05 INFO  org.example.base.BaseClass - Closing browser for test: LabTestsAddToCartTest_24
+2026-05-06 14:06:08 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:06:08 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:06:10 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:06:14 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Starting test: Find Doctors with 10+ years of experience
+2026-05-06 14:06:14 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Clicking on 'Find Doctors'
+2026-05-06 14:06:17 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Selecting Nutritionist from Others dropdown
+2026-05-06 14:06:21 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Applying filter: 10+ years of experience
+2026-05-06 14:06:22 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Applying filter: Consultation fee (Low to High)
+2026-05-06 14:06:25 INFO  org.example.base.BaseClass - TEST PASSED: findDoctors
+2026-05-06 14:06:25 INFO  org.example.base.BaseClass - Closing browser for test: findDoctors
+2026-05-06 14:06:29 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:06:29 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:06:31 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:06:49 INFO  org.example.base.BaseClass - TEST PASSED: verifyDropdownFilters
+2026-05-06 14:06:50 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-06 14:06:54 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:06:54 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:06:56 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:07:12 INFO  org.example.base.BaseClass - TEST PASSED: verifyDropdownAndRadioFilters
+2026-05-06 14:07:12 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownAndRadioFilters
+2026-05-06 14:07:15 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 14:07:15 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 14:07:17 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 14:07:35 INFO  org.example.base.BaseClass - TEST PASSED: verifyResetFilters
+2026-05-06 14:07:35 INFO  org.example.base.BaseClass - Closing browser for test: verifyResetFilters
+2026-05-06 14:07:38 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 15:10:22 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:10:22 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:10:26 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:10:33 INFO  org.example.tests.TC10SimpleHospitalSearchTest - Starting TC10_SimpleHospitalSearchTest
+2026-05-06 15:10:34 ERROR org.example.base.BaseClass - TEST FAILED: verifyHospitalSearchAndPrintCount
+2026-05-06 15:10:34 INFO  org.example.base.BaseClass - Closing browser for test: verifyHospitalSearchAndPrintCount
+2026-05-06 15:10:36 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 15:14:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:14:12 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:14:14 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:14:18 INFO  org.example.tests.TC10SimpleHomePageValidationTest - Starting TC10_SimpleHomePageValidationTest
+2026-05-06 15:14:18 INFO  org.example.tests.TC10SimpleHomePageValidationTest - Current URL: https://www.practo.com/
+2026-05-06 15:14:18 INFO  org.example.tests.TC10SimpleHomePageValidationTest - Home page loaded successfully
+2026-05-06 15:14:18 INFO  org.example.tests.TC10SimpleHomePageValidationTest - TC10_SimpleHomePageValidationTest PASSED
+2026-05-06 15:14:18 INFO  org.example.base.BaseClass - TEST PASSED: verifyHomePageLoadsSuccessfully
+2026-05-06 15:14:18 INFO  org.example.base.BaseClass - Closing browser for test: verifyHomePageLoadsSuccessfully
+2026-05-06 15:14:20 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 15:21:22 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:21:22 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:21:25 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:21:29 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-06 15:21:37 INFO  org.example.base.BaseClass - Processing city: Kanpur
+2026-05-06 15:21:38 ERROR org.example.base.BaseClass - TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-06 15:21:38 INFO  org.example.base.BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-06 15:21:41 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 15:26:21 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:26:21 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:26:24 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:26:28 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-06 15:26:33 INFO  org.example.base.BaseClass - Processing city: Kanpur
+2026-05-06 15:26:34 ERROR org.example.base.BaseClass - TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-06 15:26:34 INFO  org.example.base.BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-06 15:26:37 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 15:28:10 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:28:10 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:28:13 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:28:13 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-06 15:28:23 INFO  org.example.base.BaseClass - Processing city: Kanpur
+2026-05-06 15:28:28 INFO  org.example.base.BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 15:28:31 INFO  org.example.base.BaseClass - Processing city: Delhi
+2026-05-06 15:28:42 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:28:49 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:28:49 WARN  org.example.base.BaseClass - No eligible hospital found for city: Delhi (continuing test)
+2026-05-06 15:28:49 INFO  org.example.base.BaseClass - Processing city: Thane
+2026-05-06 15:28:59 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:29:06 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:29:06 WARN  org.example.base.BaseClass - No eligible hospital found for city: Thane (continuing test)
+2026-05-06 15:29:06 INFO  org.example.base.BaseClass - Processing city: Chennai
+2026-05-06 15:29:17 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:29:23 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:29:23 WARN  org.example.base.BaseClass - No eligible hospital found for city: Chennai (continuing test)
+2026-05-06 15:29:23 INFO  org.example.base.BaseClass - Processing city: Vadodara
+2026-05-06 15:29:40 WARN  org.example.base.BaseClass - No eligible hospital found for city: Vadodara (continuing test)
+2026-05-06 15:29:40 INFO  org.example.base.BaseClass - Processing city: Ernakulam
+2026-05-06 15:29:58 WARN  org.example.base.BaseClass - No eligible hospital found for city: Ernakulam (continuing test)
+2026-05-06 15:29:58 INFO  org.example.base.BaseClass - Processing city: Lucknow
+2026-05-06 15:30:19 WARN  org.example.base.BaseClass - No eligible hospital found for city: Lucknow (continuing test)
+2026-05-06 15:30:19 INFO  org.example.base.BaseClass - Processing city: Faridabad
+2026-05-06 15:36:01 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:36:01 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:36:05 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:36:08 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-06 15:36:16 INFO  org.example.base.BaseClass - Processing city: Kanpur
+2026-05-06 15:36:21 INFO  org.example.base.BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 15:36:22 INFO  org.example.base.BaseClass - Processing city: Delhi
+2026-05-06 15:36:39 WARN  org.example.base.BaseClass - No eligible hospital found for city: Delhi (continuing test)
+2026-05-06 15:36:39 INFO  org.example.base.BaseClass - Processing city: Thane
+2026-05-06 15:36:57 WARN  org.example.base.BaseClass - No eligible hospital found for city: Thane (continuing test)
+2026-05-06 15:36:57 INFO  org.example.base.BaseClass - Processing city: Chennai
+2026-05-06 15:37:15 WARN  org.example.base.BaseClass - No eligible hospital found for city: Chennai (continuing test)
+2026-05-06 15:37:15 INFO  org.example.base.BaseClass - Processing city: Vadodara
+2026-05-06 15:37:38 WARN  org.example.base.BaseClass - No eligible hospital found for city: Vadodara (continuing test)
+2026-05-06 15:37:38 INFO  org.example.base.BaseClass - Processing city: Ernakulam
+2026-05-06 15:37:59 WARN  org.example.base.BaseClass - No eligible hospital found for city: Ernakulam (continuing test)
+2026-05-06 15:37:59 INFO  org.example.base.BaseClass - Processing city: Lucknow
+2026-05-06 15:38:19 WARN  org.example.base.BaseClass - No eligible hospital found for city: Lucknow (continuing test)
+2026-05-06 15:38:19 INFO  org.example.base.BaseClass - Processing city: Faridabad
+2026-05-06 15:38:40 WARN  org.example.base.BaseClass - No eligible hospital found for city: Faridabad (continuing test)
+2026-05-06 15:38:40 INFO  org.example.base.BaseClass - Processing city: Jaipur
+2026-05-06 15:40:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:40:25 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:40:28 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:40:31 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-06 15:40:39 INFO  org.example.base.BaseClass - Processing city: Kanpur
+2026-05-06 15:40:42 INFO  org.example.base.BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 15:40:45 INFO  org.example.base.BaseClass - Processing city: Delhi
+2026-05-06 15:40:45 ERROR org.example.base.BaseClass - TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-06 15:40:45 INFO  org.example.base.BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-06 15:40:49 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 15:43:58 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:43:58 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:44:02 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:44:06 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-06 15:44:14 INFO  org.example.base.BaseClass - Processing city: Kanpur
+2026-05-06 15:44:19 INFO  org.example.base.BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 15:44:23 INFO  org.example.base.BaseClass - Processing city: Delhi
+2026-05-06 15:44:31 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:44:38 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:44:45 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:44:45 WARN  org.example.base.BaseClass - No eligible hospital found for city: Delhi (continuing test)
+2026-05-06 15:44:45 INFO  org.example.base.BaseClass - Processing city: Thane
+2026-05-06 15:44:46 ERROR org.example.base.BaseClass - TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-06 15:44:46 INFO  org.example.base.BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-06 15:44:51 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 15:45:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:45:35 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:45:39 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:45:43 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-06 15:45:55 ERROR org.example.base.BaseClass - TEST FAILED: findEligibleHospitalsInTopCities
+2026-05-06 15:45:55 INFO  org.example.base.BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-06 15:45:59 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 15:47:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 15:47:16 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 15:47:20 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 15:47:24 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-06 15:47:32 INFO  org.example.base.BaseClass - Processing city: Kanpur
+2026-05-06 15:47:36 INFO  org.example.base.BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 15:47:40 INFO  org.example.base.BaseClass - Processing city: Delhi
+2026-05-06 15:47:47 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:47:54 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:48:00 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 15:48:00 WARN  org.example.base.BaseClass - No eligible hospital found for city: Delhi (continuing test)
+2026-05-06 15:48:00 INFO  org.example.base.BaseClass - ✅ TC10 execution completed for all cities
+2026-05-06 15:48:00 INFO  org.example.base.BaseClass - TEST PASSED: findEligibleHospitalsInTopCities
+2026-05-06 15:48:01 INFO  org.example.base.BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-06 15:48:06 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:05:41 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\OneDrive - Cognizant\Desktop\final project shreyanka\FindingHospitals\testng.xml
+
+2026-05-06 16:05:41 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:05:45 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:06:16 INFO  org.example.base.BaseClass - Open 24x7 hospital found: Dr L H Hiranandani Hospital, Powai
+2026-05-06 16:06:18 INFO  org.example.base.BaseClass - TEST PASSED: verifyFirstHospitalOpen24x7
+2026-05-06 16:06:18 INFO  org.example.base.BaseClass - Closing browser for test: verifyFirstHospitalOpen24x7
+2026-05-06 16:06:23 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:06:23 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:06:26 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:10:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\OneDrive - Cognizant\Desktop\final project shreyanka\FindingHospitals\testng.xml
+
+2026-05-06 16:10:23 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:10:26 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:10:38 INFO  org.example.base.BaseClass - Open 24x7 hospital found: Dr L H Hiranandani Hospital, Powai
+2026-05-06 16:10:39 INFO  org.example.base.BaseClass - TEST PASSED: verifyFirstHospitalOpen24x7
+2026-05-06 16:10:39 INFO  org.example.base.BaseClass - Closing browser for test: verifyFirstHospitalOpen24x7
+2026-05-06 16:10:43 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:10:43 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:10:46 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:10:58 INFO  org.example.base.BaseClass - Hospital with parking found: Dr L H Hiranandani Hospital, Powai
+2026-05-06 16:10:58 INFO  org.example.base.BaseClass - TEST PASSED: verifyFirstHospitalWithParking
+2026-05-06 16:10:58 INFO  org.example.base.BaseClass - Closing browser for test: verifyFirstHospitalWithParking
+2026-05-06 16:11:04 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:11:04 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:11:06 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:11:19 INFO  org.example.base.BaseClass - Hospital with rating > 3.5 found: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 16:11:19 INFO  org.example.base.BaseClass - TEST PASSED: verifyHospitalRatingAbove35
+2026-05-06 16:11:19 INFO  org.example.base.BaseClass - Closing browser for test: verifyHospitalRatingAbove35
+2026-05-06 16:11:24 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:11:24 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:11:27 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:11:41 ERROR org.example.base.BaseClass - TEST FAILED: findNearestEligibleHospital
+2026-05-06 16:11:41 INFO  org.example.base.BaseClass - Closing browser for test: findNearestEligibleHospital
+2026-05-06 16:11:45 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:11:45 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:11:47 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:12:02 ERROR org.example.base.BaseClass - TEST FAILED: findBestRatedEligibleHospital
+2026-05-06 16:12:02 INFO  org.example.base.BaseClass - Closing browser for test: findBestRatedEligibleHospital
+2026-05-06 16:12:05 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:12:05 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:12:07 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:12:47 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 16:13:00 INFO  org.example.pages.HospitalDetailsPage - Rating not available → treating as 0
+2026-05-06 16:13:05 INFO  org.example.base.BaseClass - Eligible Hospital: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 16:13:05 INFO  org.example.base.BaseClass - Eligible Hospital: Wockhardt Hospitals (formerly known as Umrao Hospital), Mira Road | Rating: 4.0
+2026-05-06 16:13:05 INFO  org.example.base.BaseClass - Eligible Hospital: Cloudnine Hospital, Malad West | Rating: 5.0
+2026-05-06 16:13:05 INFO  org.example.base.BaseClass - TEST PASSED: verifyMultipleEligibleHospitals
+2026-05-06 16:13:06 INFO  org.example.base.BaseClass - Closing browser for test: verifyMultipleEligibleHospitals
+2026-05-06 16:13:10 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:13:10 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:13:12 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:13:23 INFO  org.example.base.BaseClass - Top Cities section is displayed
+2026-05-06 16:13:23 INFO  org.example.base.BaseClass - TEST PASSED: verifyTopCitiesSectionIsDisplayed
+2026-05-06 16:13:24 INFO  org.example.base.BaseClass - Closing browser for test: verifyTopCitiesSectionIsDisplayed
+2026-05-06 16:13:27 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:13:27 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:13:29 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:13:38 ERROR org.example.base.BaseClass - TEST FAILED: captureTopCities
+2026-05-06 16:13:38 INFO  org.example.base.BaseClass - Closing browser for test: captureTopCities
+2026-05-06 16:13:41 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:13:41 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:13:43 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Kanpur
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Delhi
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Thane
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Chennai
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Vadodara
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Ernakulam
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Lucknow
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Faridabad
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Jaipur
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - City: Bangalore
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - Top Cities list contains only unique values
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - TEST PASSED: verifyTopCitiesAreUnique
+2026-05-06 16:13:53 INFO  org.example.base.BaseClass - Closing browser for test: verifyTopCitiesAreUnique
+2026-05-06 16:13:56 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:13:56 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:13:58 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:14:02 INFO  org.example.base.BaseClass - Starting TC10: City-wise hospital validation
+2026-05-06 16:14:08 INFO  org.example.base.BaseClass - Processing city: Kanpur
+2026-05-06 16:14:11 INFO  org.example.base.BaseClass - Eligible hospital found | City: Kanpur | Name: Dr L H Hiranandani Hospital, Powai | Rating: 4.0
+2026-05-06 16:14:14 INFO  org.example.base.BaseClass - Processing city: Delhi
+2026-05-06 16:14:21 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 16:14:28 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 16:14:34 INFO  org.example.pages.HospitalDetailsPage - Read more info not available → Parking info not accessible
+2026-05-06 16:14:34 WARN  org.example.base.BaseClass - No eligible hospital found for city: Delhi (continuing test)
+2026-05-06 16:14:34 INFO  org.example.base.BaseClass - TC10 execution completed for all cities
+2026-05-06 16:14:34 INFO  org.example.base.BaseClass - TEST PASSED: findEligibleHospitalsInTopCities
+2026-05-06 16:14:34 INFO  org.example.base.BaseClass - Closing browser for test: findEligibleHospitalsInTopCities
+2026-05-06 16:14:38 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:14:38 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:14:41 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:14:44 INFO  org.example.base.BaseClass - Navigating to Mumbai doctors page
+2026-05-06 16:14:48 INFO  org.example.base.BaseClass - Verifying URL contains mumbai/doctors
+2026-05-06 16:14:48 INFO  org.example.base.BaseClass - TEST PASSED: verifyNavigation
+2026-05-06 16:14:48 INFO  org.example.base.BaseClass - Closing browser for test: verifyNavigation
+2026-05-06 16:14:52 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:14:52 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:14:54 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:14:58 INFO  org.example.base.BaseClass - Navigating to Mumbai Doctors page
+2026-05-06 16:15:01 INFO  org.example.base.BaseClass - Applying Gender filter: Male
+2026-05-06 16:15:02 INFO  org.example.base.BaseClass - Verifying doctors list is shown
+2026-05-06 16:15:02 INFO  org.example.base.BaseClass - TEST PASSED: filterByGenderMale
+2026-05-06 16:15:02 INFO  org.example.base.BaseClass - Closing browser for test: filterByGenderMale
+2026-05-06 16:15:05 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:15:05 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:15:07 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:15:11 INFO  org.example.base.BaseClass - Navigating to Mumbai Doctors page
+2026-05-06 16:15:15 INFO  org.example.base.BaseClass - Applying filters: Gender Male, Patient Stories 20+
+2026-05-06 16:15:19 INFO  org.example.base.BaseClass - Validating result count text is present
+2026-05-06 16:15:19 INFO  org.example.base.BaseClass - TEST PASSED: filterByPatientStories
+2026-05-06 16:15:19 INFO  org.example.base.BaseClass - Closing browser for test: filterByPatientStories
+2026-05-06 16:15:22 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:15:22 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:15:24 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:15:27 INFO  org.example.base.BaseClass - Navigating to Mumbai Doctors page
+2026-05-06 16:15:30 INFO  org.example.base.BaseClass - Applying filters: Gender, Patient Stories, Experience, Fees
+2026-05-06 16:15:35 INFO  org.example.base.BaseClass - Validating doctors are shown after filters
+2026-05-06 16:15:35 INFO  org.example.base.BaseClass - TEST PASSED: filterByFeesAndExperience
+2026-05-06 16:15:35 INFO  org.example.base.BaseClass - Closing browser for test: filterByFeesAndExperience
+2026-05-06 16:15:38 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:15:38 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:15:40 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:15:43 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Starting DiagnosticsCityClickTest_19
+2026-05-06 16:15:43 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Opening Lab Tests page
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Top Cities Available:
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Bangalore
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Delhi
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Mumbai
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Chennai
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Hyderabad
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Kolkata
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Pune
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - City Name: Ahmedabad
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Verifying first city is clickable
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Clicking first city: Bangalore
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - Navigation validation result: true
+2026-05-06 16:15:46 INFO  org.example.tests.TC15DiagnosticsCityClickTest - DiagnosticsCityClickTest_19 completed successfully
+2026-05-06 16:15:46 INFO  org.example.base.BaseClass - TEST PASSED: DiagnosticsCityClickTest_19
+2026-05-06 16:15:46 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsCityClickTest_19
+2026-05-06 16:15:49 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:15:49 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:15:52 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:15:55 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Starting DiagnosticsBackNavigationTest_20
+2026-05-06 16:15:55 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Clicking on Lab Tests
+2026-05-06 16:15:56 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Validating Lab Tests page is opened
+2026-05-06 16:15:57 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Lab Tests page opened successfully
+2026-05-06 16:15:57 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Clicking on Practo logo to navigate back to Home page
+2026-05-06 16:15:59 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - Current URL after clicking Practo logo: https://www.practo.com/
+2026-05-06 16:15:59 INFO  org.example.tests.TC16DiagnosticsBackNavigationTest - DiagnosticsBackNavigationTest_20 completed successfully
+2026-05-06 16:15:59 INFO  org.example.base.BaseClass - TEST PASSED: DiagnosticsBackNavigationTest_20
+2026-05-06 16:15:59 INFO  org.example.base.BaseClass - Closing browser for test: DiagnosticsBackNavigationTest_20
+2026-05-06 16:16:02 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:16:02 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:16:04 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:16:07 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Starting CorporateWellnessLinkTest_21
+2026-05-06 16:16:07 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Captured parent window handle: 2A9E48619F384F6669078B4499CBD406
+2026-05-06 16:16:07 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Clicking on Corporate menu
+2026-05-06 16:16:07 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Clicking on Health & Wellness Plans
+2026-05-06 16:16:12 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Total windows opened: 1
+2026-05-06 16:16:12 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Verified that no new window was opened
+2026-05-06 16:16:12 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Window Name (Title): Employee Health | Corporate Health & Wellness Plans | Practo
+2026-05-06 16:16:12 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Navigation validation result: true
+2026-05-06 16:16:12 INFO  org.example.tests.TC17CorporateWellnessLinkTest - Verified navigation remained in the parent window
+2026-05-06 16:16:12 INFO  org.example.tests.TC17CorporateWellnessLinkTest - CorporateWellnessLinkTest_21 completed successfully
+2026-05-06 16:16:12 INFO  org.example.base.BaseClass - TEST PASSED: CorporateWellnessLinkTest_21
+2026-05-06 16:16:12 INFO  org.example.base.BaseClass - Closing browser for test: CorporateWellnessLinkTest_21
+2026-05-06 16:16:16 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:16:16 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:16:18 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:16:21 INFO  org.example.tests.TC18CorporateWindowSwitchTest - Starting CorporateWindowSwitchTest_22
+2026-05-06 16:16:21 INFO  org.example.tests.TC18CorporateWindowSwitchTest - Clicking on Corporate menu
+2026-05-06 16:16:21 INFO  org.example.tests.TC18CorporateWindowSwitchTest - Clicking on Health & Wellness Plans
+2026-05-06 16:16:27 INFO  org.example.tests.TC18CorporateWindowSwitchTest - Corporate Wellness Page Header: Your Workplace Health and Wellness Partner
+2026-05-06 16:16:27 INFO  org.example.tests.TC18CorporateWindowSwitchTest - CorporateWindowSwitchTest_22 completed successfully
+2026-05-06 16:16:27 INFO  org.example.base.BaseClass - TEST PASSED: CorporateWindowSwitchTest_22
+2026-05-06 16:16:27 INFO  org.example.base.BaseClass - Closing browser for test: CorporateWindowSwitchTest_22
+2026-05-06 16:16:30 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:16:30 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:16:32 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:16:35 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Starting CorporateFormInvalidInputTest_23
+2026-05-06 16:16:35 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Clicking on Corporate menu
+2026-05-06 16:16:36 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Clicking on Health & Wellness Plans
+2026-05-06 16:16:40 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Entering invalid form details
+2026-05-06 16:16:42 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - Is Schedule Demo Clickable: false
+2026-05-06 16:16:42 INFO  org.example.tests.TC19CorporateFormInvalidInputTest - CorporateFormInvalidInputTest_23 completed successfully
+2026-05-06 16:16:42 INFO  org.example.base.BaseClass - TEST PASSED: CorporateFormInvalidInputTest_23
+2026-05-06 16:16:42 INFO  org.example.base.BaseClass - Closing browser for test: CorporateFormInvalidInputTest_23
+2026-05-06 16:16:45 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:16:45 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:16:47 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:16:54 INFO  org.example.tests.TC20LabTestsAddToCartTest - Cart item count after adding: 1
+2026-05-06 16:16:54 INFO  org.example.tests.TC20LabTestsAddToCartTest - Lab Tests Add To Cart Test completed successfully
+2026-05-06 16:16:54 INFO  org.example.base.BaseClass - TEST PASSED: LabTestsAddToCartTest_24
+2026-05-06 16:16:54 INFO  org.example.base.BaseClass - Closing browser for test: LabTestsAddToCartTest_24
+2026-05-06 16:16:57 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:16:57 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:16:59 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:17:10 INFO  org.example.base.BaseClass - TEST PASSED: LabTestsAddToCartTest_24
+2026-05-06 16:17:10 INFO  org.example.base.BaseClass - Closing browser for test: LabTestsAddToCartTest_24
+2026-05-06 16:17:13 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:17:13 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:17:15 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:17:18 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Starting test: Find Doctors with 10+ years of experience
+2026-05-06 16:17:18 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Clicking on 'Find Doctors'
+2026-05-06 16:17:23 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Selecting Nutritionist from Others dropdown
+2026-05-06 16:17:28 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Applying filter: 10+ years of experience
+2026-05-06 16:17:29 INFO  org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest - Applying filter: Consultation fee (Low to High)
+2026-05-06 16:17:32 INFO  org.example.base.BaseClass - TEST PASSED: findDoctors
+2026-05-06 16:17:32 INFO  org.example.base.BaseClass - Closing browser for test: findDoctors
+2026-05-06 16:17:35 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:17:35 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:17:38 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:17:54 INFO  org.example.base.BaseClass - TEST PASSED: verifyDropdownFilters
+2026-05-06 16:17:54 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownFilters
+2026-05-06 16:17:58 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:17:58 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:18:00 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:18:11 INFO  org.example.base.BaseClass - TEST PASSED: verifyDropdownAndRadioFilters
+2026-05-06 16:18:11 INFO  org.example.base.BaseClass - Closing browser for test: verifyDropdownAndRadioFilters
+2026-05-06 16:18:14 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:18:14 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:18:16 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:18:33 INFO  org.example.base.BaseClass - TEST PASSED: verifyResetFilters
+2026-05-06 16:18:33 INFO  org.example.base.BaseClass - Closing browser for test: verifyResetFilters
+2026-05-06 16:18:35 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:18:53 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 16:18:53 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:18:55 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:19:10 ERROR org.example.base.BaseClass - TEST FAILED: findNearestEligibleHospital
+2026-05-06 16:19:10 INFO  org.example.base.BaseClass - Closing browser for test: findNearestEligibleHospital
+2026-05-06 16:19:14 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========
+2026-05-06 16:20:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2481654\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-06 16:20:02 INFO  org.example.base.BaseClass - ========== TEST SETUP STARTED ==========
+2026-05-06 16:20:05 INFO  org.example.base.BaseClass - Launching application: https://www.practo.com
+2026-05-06 16:20:19 ERROR org.example.base.BaseClass - TEST FAILED: findNearestEligibleHospital
+2026-05-06 16:20:19 INFO  org.example.base.BaseClass - Closing browser for test: findNearestEligibleHospital
+2026-05-06 16:20:22 INFO  org.example.base.BaseClass - ========== TEST TEARDOWN COMPLETED ==========

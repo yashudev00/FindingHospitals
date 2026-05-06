@@ -24,7 +24,6 @@ public class DoctorsHomePage {
                         "arguments[0].scrollIntoView(true);",
                         driver.findElement(mumbaiDoctorsLink)
                 );
-
         WaitUtils.waitForClickable(driver, mumbaiDoctorsLink).click();
     }
 }
