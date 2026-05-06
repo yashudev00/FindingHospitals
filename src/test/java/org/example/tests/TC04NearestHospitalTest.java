@@ -28,7 +28,7 @@ public class TC04NearestHospitalTest extends BaseClass {
                     && details.getRating() > 3.5) {
 
                 nearestHospital = details.getHospitalName();
-                log.info("✅ Nearest eligible hospital: {}", nearestHospital);
+                log.info("Nearest eligible hospital: {}", nearestHospital);
                 searchPage.closeAndReturnToList();
                 break;
             }
