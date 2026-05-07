@@ -9,8 +9,6 @@ import org.slf4j.LoggerFactory;
 
 public class TC20LabTestsAddToCartTest extends BaseClass {
 
-    private static final Logger log = LoggerFactory.getLogger(TC20LabTestsAddToCartTest.class);
-
     @Test
     public void LabTestsAddToCartTest_24() {
 

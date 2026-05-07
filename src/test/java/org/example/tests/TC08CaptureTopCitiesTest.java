@@ -13,7 +13,7 @@ public class TC08CaptureTopCitiesTest extends BaseClass {
     @Test
     public void captureTopCities() {
 
-        new HomePage(driver, wait).searchHospitalInDefaultCity();
+        new HomePage(driver, wait).searchHospitalDirectly();
         HospitalSearchPage searchPage = new HospitalSearchPage(driver);
 
         List<String> cities = searchPage.getTopCities();

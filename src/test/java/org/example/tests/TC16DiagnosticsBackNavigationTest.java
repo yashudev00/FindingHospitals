@@ -9,10 +9,6 @@ import org.testng.annotations.Test;
 
 public class TC16DiagnosticsBackNavigationTest extends BaseClass {
 
-    // Logger instance (same pattern as TC11)
-    private static final Logger log =
-            LoggerFactory.getLogger(TC16DiagnosticsBackNavigationTest.class);
-
     @Test
     public void DiagnosticsBackNavigationTest_20() {
 

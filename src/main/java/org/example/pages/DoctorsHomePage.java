@@ -1,9 +1,11 @@
 package org.example.pages;
 
+import org.example.utility.JSUtil;
 import org.example.utility.WaitUtils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 public class DoctorsHomePage {
@@ -19,11 +21,8 @@ public class DoctorsHomePage {
     }
 
     public void navigateToMumbaiDoctors() {
-        ((JavascriptExecutor) driver)
-                .executeScript(
-                        "arguments[0].scrollIntoView(true);",
-                        driver.findElement(mumbaiDoctorsLink)
-                );
+        WebElement element = driver.findElement(mumbaiDoctorsLink);
+        JSUtil.scrollIntoView(driver, element);
         WaitUtils.waitForClickable(driver, mumbaiDoctorsLink).click();
     }
 }

@@ -1,6 +1,7 @@
 package org.example.pages;
 
 import org.example.utility.ConfigReader;
+import org.example.utility.JSUtil;
 import org.example.utility.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -102,6 +103,15 @@ public class HomePage {
     @FindBy(xpath = "//button[@class='c-btn--unstyled  u-spacer--right-thin']")
     private WebElement resetFiltersButton;
 
+    @FindBy(xpath = "(//div[contains(text(),'Bangalore')])[1]")
+    private WebElement DefaultLocation;
+
+    @FindBy(xpath ="//button[contains(text(),'View All Specialities')]")
+    private WebElement specialits;
+
+    @FindBy(xpath = "//h2[@class=\"homepage-section-heading horizontal-scroll top-speciality-cards__heading\"]")
+    private WebElement totalSpecialits;
+
     public HomePage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
         this.wait = wait;
@@ -109,31 +119,46 @@ public class HomePage {
     }
 
     public void searchHospitalInDefaultCity() {
-        searchHospitalInCity(ConfigReader.get("defaultCity"));
+        searchHospitalOnly();
     }
 
     public void searchHospitalInSpecificCity(String city) {
         searchHospitalInCity(city);
     }
 
-    private void searchHospitalInCity(String city) {
+    private void searchHospitalOnly() {
 
         locationInput.click();
         clearLocation.click();
-        locationInput.sendKeys(city);
+        locationInput.sendKeys(ConfigReader.get("defaultCity"));
+        wait.until(ExpectedConditions.elementToBeClickable(DefaultLocation)).click();
+        searchBox.clear();
+        searchBox.sendKeys("Hospital");
+        wait.until(ExpectedConditions.elementToBeClickable(hospitalSuggestion)).click();
+    }
 
+    private void searchHospitalInCity(String city) {
+        locationInput.click();
+        clearLocation.click();
+        locationInput.sendKeys(city);
         By suggestionBy = By.xpath(
                 "//div[@data-qa-id='omni-suggestion-main'][1]"
         );
-
         WebElement suggestion =
                 WaitUtils.waitForVisible(driver, suggestionBy);
-
         ((JavascriptExecutor) driver)
                 .executeScript(
                         "arguments[0].click();",
                         suggestion
                 );
+    }
+
+    public String specialistDoctors() {
+
+        wait.until(ExpectedConditions.elementToBeClickable(specialits)).click();
+        wait.until(ExpectedConditions.visibilityOf(totalSpecialits));
+
+        return totalSpecialits.getText();
     }
 
     public void searchHospitalDirectly() {
@@ -152,9 +177,9 @@ public class HomePage {
         viewRecords.click();
     }
 
-    public void enterNum(){
-        mobileNum.sendKeys("463829848");
-        fullName.sendKeys("Yashu");
+    public void enterNum() {
+        mobileNum.sendKeys(ConfigReader.get("mobileNumber"));
+        fullName.sendKeys(ConfigReader.get("fullName"));
     }
 
     public void viewRecords(){
@@ -166,10 +191,8 @@ public class HomePage {
     }
 
     public void selectNutritionistFromOthersDropdown() {
-
         othersDropDown.click();
         clickNutritionist.click();
-
     }
 
     public void filterByExperience() {
@@ -186,24 +209,14 @@ public class HomePage {
         allFiltersIcon.click();
     }
 
-    public void selectFeesFilter(int index) {
-        feesRadioOption.click();
-    }
-
-    public void selectAvailabilityFilter(int index) {
-        availabilityRadioOption.click();
-    }
-
     public void selectFeesFilterSafely() {
         wait.until(ExpectedConditions.visibilityOf(feesRadioOption));
-        ((org.openqa.selenium.JavascriptExecutor) driver)
-                .executeScript("arguments[0].click();", feesRadioOption);
+        JSUtil.clickUsingJS(driver, feesRadioOption);
     }
 
     public void selectAvailabilityFilterSafely() {
         wait.until(ExpectedConditions.visibilityOf(availabilityRadioOption));
-        ((org.openqa.selenium.JavascriptExecutor) driver)
-                .executeScript("arguments[0].click();", availabilityRadioOption);
+        JSUtil.clickUsingJS(driver, availabilityRadioOption);
     }
 
     public void filterByGender(String genderOption) {
@@ -223,13 +236,4 @@ public class HomePage {
     public boolean isConsultationFeeFilterAppliedBySelectedText() {
         return !selectedConsultationFeeText.getText().equalsIgnoreCase("Sort by");
     }
-
-    public boolean isConsultationFeeFilterReset() {
-        return !feesRadioOption.getAttribute("class").contains("checked");
-    }
-
-    public void resetAllFilters() {
-        resetFiltersButton.click();
-    }
-
 }

@@ -12,7 +12,7 @@ public class TC05BestRatedHospitalTest extends BaseClass {
     @Test
     public void findBestRatedEligibleHospital() {
 
-        new HomePage(driver, wait).searchHospitalInDefaultCity();
+        new HomePage(driver, wait).searchHospitalDirectly();
         HospitalSearchPage searchPage = new HospitalSearchPage(driver);
 
         String bestHospital = null;

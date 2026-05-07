@@ -1,5 +1,6 @@
 package org.example.pages;
 
+import org.example.utility.ConfigReader;
 import org.example.utility.WaitUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,19 +18,19 @@ public class CorporateWellnessPage {
     @FindBy(xpath = "//a[text()='Health & Wellness Plans']")
     private WebElement healthWellnessPlans;
 
-    @FindBy(xpath = "//h1 | //h2")
+    @FindBy(xpath = "(//h1[@class='ui header title'])[1]")
     private WebElement pageHeader;
 
-    @FindBy(xpath = "(//input[@id='name'][@name='name'])[1]")
+    @FindBy(id = "name")
     private WebElement nameInput;
 
-    @FindBy(xpath = "(//input[@id='organizationName'])[1]")
+    @FindBy(id = "organizationName")
     private WebElement organizationNameInput;
 
-    @FindBy(xpath = "(//input[@id='contactNumber'])[1]")
+    @FindBy(id = "contactNumber")
     private WebElement contactNumberInput;
 
-    @FindBy(xpath = "(//input[@id='officialEmailId'])[1]")
+    @FindBy(id = "officialEmailId")
     private WebElement emailInput;
 
     @FindBy(id = "organizationSize")
@@ -57,10 +58,10 @@ public class CorporateWellnessPage {
                 java.util.Collections.singletonList(nameInput)
         );
 
-        nameInput.sendKeys("12345");             // Invalid name
-        organizationNameInput.sendKeys("@@@");  // Invalid organization
-        contactNumberInput.sendKeys("abcd123"); // Invalid phone
-        emailInput.sendKeys("invalid-email");   // Invalid email
+        nameInput.sendKeys(ConfigReader.get("Name"));                 // 12345
+        organizationNameInput.sendKeys(ConfigReader.get("OrganizationName")); // @@@
+        contactNumberInput.sendKeys(ConfigReader.get("contact"));     // abcd123
+        emailInput.sendKeys(ConfigReader.get("Email"));
 
         Select select = new Select(organizationSizeDropdown);
         select.selectByIndex(1);

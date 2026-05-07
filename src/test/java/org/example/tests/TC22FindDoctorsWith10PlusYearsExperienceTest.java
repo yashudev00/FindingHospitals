@@ -8,11 +8,10 @@ import org.slf4j.LoggerFactory;
 
 public class TC22FindDoctorsWith10PlusYearsExperienceTest extends BaseClass {
 
-    private static final Logger log = LoggerFactory.getLogger(TC22FindDoctorsWith10PlusYearsExperienceTest.class);
     @Test
     public void findDoctors(){
 
-        log.info("Starting test: Find Doctors with 10+ years of experience");
+        //log.info("Starting test: Find Doctors with 10+ years of experience");
         HomePage homePage = new HomePage(driver,wait);
 
         log.info("Clicking on 'Find Doctors'");
