@@ -26,7 +26,7 @@ public class DriverFactory {
                 chromeOptions.addArguments("--disable-infobars");
                 chromeOptions.addArguments("--disable-extensions");
                 chromeOptions.addArguments("--remote-allow-origins=*");
-           //     chromeOptions.addArguments("--headless=new");
+                //chromeOptions.addArguments("--headless=new");
 
                 driver = new ChromeDriver(chromeOptions);
                 break;
@@ -37,7 +37,7 @@ public class DriverFactory {
                 edgeOptions.addArguments("--disable-notifications");
                 edgeOptions.addArguments("--disable-infobars");
                 edgeOptions.addArguments("--disable-extensions");
-                //     edgeOptions.addArguments("--headless=new");
+                //edgeOptions.addArguments("--headless=new");
 
                 driver = new EdgeDriver(edgeOptions);
                 break;
@@ -46,7 +46,7 @@ public class DriverFactory {
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.addArguments("--start-maximized");
                 firefoxOptions.addArguments("--disable-notifications");
-                //     firefoxOptions.addArguments("--headless=new");
+                //firefoxOptions.addArguments("--headless=new");
 
                 driver = new FirefoxDriver(firefoxOptions);
                 break;

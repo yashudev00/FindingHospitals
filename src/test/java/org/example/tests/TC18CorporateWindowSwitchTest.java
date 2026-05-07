@@ -8,9 +8,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 public class TC18CorporateWindowSwitchTest extends BaseClass {
 
-    private static final Logger log =
-            LoggerFactory.getLogger(TC18CorporateWindowSwitchTest.class);
-
     @Test
     public void CorporateWindowSwitchTest_22() {
         log.info("Starting CorporateWindowSwitchTest_22");

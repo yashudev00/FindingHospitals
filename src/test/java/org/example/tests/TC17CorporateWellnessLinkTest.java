@@ -11,10 +11,6 @@ import java.util.Set;
 
 public class TC17CorporateWellnessLinkTest extends BaseClass {
 
-    //Logger instance (same style as other test cases)
-    private static final Logger log =
-            LoggerFactory.getLogger(TC17CorporateWellnessLinkTest.class);
-
     @Test
     public void CorporateWellnessLinkTest_21() {
 

@@ -12,7 +12,7 @@ public class TC04NearestHospitalTest extends BaseClass {
     @Test
     public void findNearestEligibleHospital() {
 
-        new HomePage(driver, wait).searchHospitalInDefaultCity();
+        new HomePage(driver, wait).searchHospitalDirectly();
         HospitalSearchPage searchPage = new HospitalSearchPage(driver);
 
         String nearestHospital = null;

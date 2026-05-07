@@ -9,9 +9,6 @@ import org.testng.annotations.Test;
 
 public class TC19CorporateFormInvalidInputTest extends BaseClass {
 
-    private static final Logger log =
-            LoggerFactory.getLogger(TC19CorporateFormInvalidInputTest.class);
-
     @Test
     public void CorporateFormInvalidInputTest_23() {
 

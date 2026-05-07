@@ -11,9 +11,6 @@ import java.util.List;
 
 public class TC15DiagnosticsCityClickTest extends BaseClass {
 
-    private static final Logger log =
-            LoggerFactory.getLogger(TC15DiagnosticsCityClickTest.class);
-
     @Test
     public void DiagnosticsCityClickTest_19() {
 

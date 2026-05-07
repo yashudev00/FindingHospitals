@@ -18,7 +18,7 @@
              <class name="org.example.tests.TC07VerifyTopCitiesSectionDisplayedTest"/>
              <class name="org.example.tests.TC08CaptureTopCitiesTest"/>
              <class name="org.example.tests.TC09VerifyTopCitiesAreUniqueTest"/>
-             <class name=org.example.tests.TC10FindEligibleHospitalsInTopCitiesTest"/>
+             <class name="org.example.tests.TC10FindEligibleHospitalsInTopCitiesTest"/>
              <class name="org.example.tests.TC11VerifyNavigationTest"/>
              <class name="org.example.tests.TC12FilterByGenderTest"/>
              <class name="org.example.tests.TC13FilterByPatientStoriesTest"/>
@@ -26,16 +26,14 @@
              <class name="org.example.tests.TC15DiagnosticsCityClickTest"/>
              <class name="org.example.tests.TC16DiagnosticsBackNavigationTest"/>
              <class name="org.example.tests.TC17CorporateWellnessLinkTest"/>
-            <class name="org.example.tests.TC18CorporateWindowSwitchTest"/>
+             <class name="org.example.tests.TC18CorporateWindowSwitchTest"/>
             <class name="org.example.tests.TC19CorporateFormInvalidInputTest"/>
             <class name="org.example.tests.TC20LabTestsAddToCartTest"/>
             <class name="org.example.tests.TC21InvalidDetailsCheckTest"/>
             <class name="org.example.tests.TC22FindDoctorsWith10PlusYearsExperienceTest"/>
             <class name="org.example.tests.TC23DropDownHandlingTest"/>
             <class name="org.example.tests.TC24RadioButtonsHandlingTest"/>
-            <class name="org.example.tests.TC25ResetFiltersHandlingTest"/>
-
-
+            <class name="org.example.tests.TC25SpecialistDoctorsTest"/>
         </classes>
     </test>
 </suite>
